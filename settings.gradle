@@ -1,0 +1,3 @@
+include ':upgmodule-release'
+include ':upgmodule-debug'
+include ':app'

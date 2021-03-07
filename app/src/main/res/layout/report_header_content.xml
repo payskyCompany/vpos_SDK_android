@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header"
+    android:background="@color/primaryBlue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_3sdp">
+
+            <TextView
+                android:id="@+id/filterTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:text="@string/upg_general_Search" />
+
+            <ImageView
+                android:tint="@color/tintColor"
+                android:id="@+id/fillter_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_expand_more_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/FillterTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/dateSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:background="@drawable/white_bg_with_small_redius"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <ImageView
+                        android:tint="@color/primaryBlue"
+                        android:layout_width="@dimen/_20ssp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:src="@drawable/bluecelender" />
+
+                    <TextView
+                        android:id="@+id/ResultFrom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        tools:text="sdfsfdsfdsdf"
+                        android:textColor="@color/colorGreyEditText" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:tint="@color/primaryBlue"
+
+                        android:layout_height="@dimen/_15sdp"
+                        android:scaleX="@integer/one"
+                        android:src="@drawable/arrow_celender" />
+
+                    <TextView
+                        android:id="@+id/ResultTo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        tools:text="sdfsfdsfdsdf"
+                        android:textColor="@color/colorGreyEditText" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:tint="@color/primaryBlue"
+
+                        android:layout_height="@dimen/_30sdp"
+                        android:scaleX="@integer/one"
+                        android:src="@drawable/editcelender" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/TerminalLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_bg_with_small_redius"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <me.grantland.widget.AutofitTextView
+                            android:id="@+id/ResultTerminalid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_8sdp"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            tools:text="fgfgfgfgfgsfgsfg "
+                            android:textColor="@color/dashboardtext" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:scaleX="@integer/one"
+                            android:src="@drawable/icondropdown" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_bg_with_small_redius"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <me.grantland.widget.AutofitTextView
+                            android:id="@+id/ResultType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_margin="@dimen/_8sdp"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text=" "
+                            android:textColor="@color/dashboardtext" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:scaleX="@integer/one"
+                            android:src="@drawable/icondropdown" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/white_bg_with_small_redius"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp"
+
+
+            >
+
+            <ImageView
+                android:tint="@color/primaryBlue"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/totalsales" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <me.grantland.widget.AutofitTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/upg_dashboard_TotalSales_label"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/ResultNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:maxLines="1"
+                    tools:text="sdfsdfsddfsddfddg"
+                    android:singleLine="true"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/tv_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:maxLines="1"
+                    tools:text="sdfsdfsdfsdf"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextViewCustomFont"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/tv_trans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:maxLines="1"
+                    tools:text="sdfsdfsdfsfd"
+                    android:singleLine="true"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_total_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/white_bg_with_small_redius"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_8sdp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/totaltips" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:text="@string/upg_dashboard_Total_Tips_label"
+                    android:textColor="@color/dashboardtext"
+                    android:textAppearance="@style/TextViewCustomFont" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textAppearance="@style/TextViewCustomFont"
+                    android:id="@+id/tv_total_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    tools:text="sdffdsfdsdfsfdsfsdf"
+                    android:textColor="@color/dashboardtext" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,754 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="SigninFromOtherAccount">Invalid session  </string>
+
+    <string name="upg_general_app_name">VPOS SDK</string>
+    <string name="upg">Unified Payment Gateway</string>
+    <string name="upg_general_Version">" Ver "</string>
+    <string name="upg_general_Close"> Close </string>
+    <string name="upg_general_numbers"> Numbers </string>
+    <string name="MerchantID">Merchant ID:  </string>
+    <string name="MerchantIDWithOutDot">Merchant ID</string>
+
+
+    <string name="upg_general_upg_merchant_id">UPG Merchant ID</string>
+    <string name="upg_general_upg_terminal_id">Terminal ID</string>
+
+
+    <string name="upg_paylink_history_TotalDueAmount_label">Due Amount</string>
+    <string name="upg_paylink_history_TotalResult_label"> Total Results</string>
+    <string name="upg_paylink_history_TotalDueCount_label">Due Count</string>
+    <string name="upg_paylink_history_TotalPaidAmount_label">Paid Amount</string>
+    <string name="upg_paylink_history_TotalPaidCount_label">Paid Count</string>
+    <string name="upg_paylink_history_TotalCount_label">All Count</string>
+    <string name="Must_be_at_least">Must be at least</string>
+
+
+    <string name="upg_dialog_Confirmation_title_label"> Confirmation  </string>
+    <string name="upg_dialog_attachment_title_label"> Choose attachments  </string>
+    <string name="upg_dialog_Confirmation_message_label">Are you sure you want to exit from application ? </string>
+    <string name="upg_general_cancel">Cancel </string>
+    <string name="upg_dialog_Transactionfilter_title">Transaction Filter </string>
+    <string name="upg_dialog_Transactionfilter_TahweelTransactionID_label">Network Ref. #</string>
+
+
+    <string name="ConnectingtoUPG">Connecting to UPG.</string>
+    <string-array name="qrcode_detectors">
+        <item>STANDARD</item>
+        <item>FAST</item>
+    </string-array>
+
+
+    <string-array name="pay_link_type">
+        <item>One-use link</item>
+        <item>Multiple-use link</item>
+    </string-array>
+
+
+    <string name="upg_dialog_Transactionfilter_Dateto_hint">Date to</string>
+    <string name="upg_dialog_Transactionfilter_Datefrom_hint">Date from</string>
+    <string name="upg_general_Update">Update</string>
+    <string name="pleaseselectstartdate">Select start date</string>
+    <string name="pleaseselectenddate">Select end date</string>
+    <string name="validmobileNumber">Enter valid mobile number</string>
+    <string name="validMeezaDigitalIdOrMobile">Enter valid MeezaDigital ID / mobile number</string>
+    <string name="Invalidsearchdata">Invalid Search Data</string>
+    <string name="DateFrommustbehigherthanDato">Date To must be higher than Date From</string>
+    <string name="upg_paylink_send_PayLink_btn">Send PayLink</string>
+    <string name="genrateQuickCode">Generate Quick Code</string>
+
+
+    <string name="quickCode">Quick Code</string>
+    <string name="upg_dialog_AtmQuickCode_title_label">ATM Quick Code</string>
+    <string name="account_service">Account Service</string>
+    <string name="upg_dialog_use_customer_app_label">Please use the customer  application to scan the provided QR code</string>
+
+    <string name="upg_change_password_change_label">Change Password</string>
+    <string name="DeniedMessage">If you reject permission,you can not use this service\n\n" +
+                        "Turn on permissions at [Setting] > [Permission]</string>
+
+
+    <string name="upg_dialog_AtmQuickCode_enter_title">
+      Enter the quick code on the ATM
+
+
+
+    </string>
+
+
+    <string name="upg_paylink_details_SystemReferenceNumber_label"> System Ref #</string>
+    <string name="upg_paylink_details_PaymentMethod_label"> Payment Method</string>
+    <string name="upg_paylink_details_NetworkReferenceNumber_label"> Network Ref. #</string>
+
+    <string name="fontappr">font/robotecrec.ttf</string>
+    <string name="fontappb">font/robotecbold.ttf</string>
+
+
+    <string name="newUpdate">A new update </string>
+    <string name="newUpdateDes">A new update has been found, you must update your application</string>
+    <string name="update">Update </string>
+    <string name="upg_general_to">To </string>
+
+
+    <string name="upg_login_Remember_Me_label">Remember Me</string>
+    <string name="upg_general_OrderID">Order ID:</string>
+    <string name="upg_general_Status">Status:</string>
+
+    <string name="sharerecipt">Share PayLink</string>
+    <string name="upg_dialog_shareLink">Share Link</string>
+    <string name="clear">Clear</string>
+
+    <string name="sharePayLink">
+       %1$s is requesting payment of %2$s %3$s, merchant reference   %4$s
+To make payment,  click this link:
+\n
+         %5$s
+\n
+Link expires on  %6$s
+\nPowered by PaySky Payment Solutions.
+    </string>
+
+    <string name="sharePayLinkWithoutRef">
+       %1$s is requesting payment of %2$s %3$s,
+To make payment,  click this link:
+\n
+         %4$s
+\n
+Link expires on  %5$s
+\nPowered by PaySky Payment Solutions.
+    </string>
+
+    <string name="adcb_powered_by">Powered by</string>
+    <string name="adcb_powered_by_support">Powered by:</string>
+
+    <string name="upg_login_login_label">Login</string>
+    <string name="upg_login_username_hint">Mobile Number/Merchant ID</string>
+    <string name="upg_login_password_hint">PIN</string>
+    <string name="upg_change_password_old_password_hint">Old PIN</string>
+    <string name="upg_change_password_new_password_hint">New PIN</string>
+    <string name="upg_change_password_reneter_new_password_hint">Renter New PIN</string>
+
+    <string name="upg_login_keyboard_label">Login</string>
+    <string name="upg_general_QR">QR</string>
+    <string name="QRQenration">QR Generation</string>
+    <string name="upg_general_DashBoard">Dashboard</string>
+    <string name="upg_dashboard_TotalSales_label">Total Sales</string>
+    <string name="upg_dashboard_Total_Tips_label">Total Tips/Conv. Fees</string>
+    <string name="upg_dashboard_conv_fees_label">Conv. Fees</string>
+
+    <string name="upg_general_Details">Details</string>
+    <string name="upg_general_Search">Search</string>
+    <string name="upg_general_All">All</string>
+    <string name="AllTerminal">Terminal - All </string>
+    <string name="upg_general_card">Card: </string>
+    <string name="upg_general_Terminal">"Terminal: "</string>
+    <string name="upg_general_TerminalWithoutDot">"Terminal"</string>
+    <string name="upg_login_forgot_password_label">Forgot Password?</string>
+    <string name="forgetpassmessage">Done sending support ticket to Paysky
+        help disk  call them to authenticate your request.\n
+        Your ticket number %s </string>
+
+    <string name="upg_general_mVisa">"Visa: "</string>
+    <string name="upg_general_Tahweel">"Meeza Digital: "</string>
+
+    <string name="upg_general_Cash">"Cash: "</string>
+    <string name="upg_general_dispute">"Dispute: "</string>
+    <string name="upg_general_scan">Scan</string>
+    <string name="upg_general_Help">Help</string>
+    <string name="scan_note">Scan Merchant QR code to pay</string>
+
+    <string name="upg_Notifications_title">Notifications</string>
+    <string name="UPGTID">UPG TID: </string>
+    <string name="upg_sale_by_QR_MerchantName_label">Merchant Name</string>
+    <string name="upg_paylink_history_Merchant_Reference_label">Merchant Ref# </string>
+    <string name="upg_sale_by_QR_title_label">Scan QR code</string>
+
+    <string name="yallavpos_sale_by_QR_title_label">Please Scan QR Code</string>
+
+    <string name="upg_sale_by_QR_paymen_request_btn">Payment Request</string>
+
+
+    <string name="upg_general_request">Request</string>
+
+    <string name="upg_sale_by_QR_DynamicQR_btn">Dynamic QR</string>
+    <string name="upg_sale_by_QR_paymen_request_label">Can\'t scan QR code?\nSend payment request to customer\'s mobile number.</string>
+    <string name="upg_general_Channel">"Channel: "</string>
+
+
+    <string name="upg_general_waiting_comfirm">"Waiting  Confirmation"</string>
+
+    <string name="upg_general_confirmation">"Confirmation"</string>
+
+    <string-array name="notitype">
+        <item>Email</item>
+        <item>Mobile</item>
+    </string-array>
+
+
+    <string-array name="upg_paylink_filter_statustypes">
+        <item>Status - ِAll</item>
+        <item>UnPaid</item>
+        <item>Paid</item>
+        <item>Cancelled</item>
+        <item>Partially Paid</item>
+    </string-array>
+
+
+    <string name="upg_general_fees">Fees</string>
+    <string name="upg_reciept_Total_label">Total </string>
+    <string name="upg_general_Amountdot">Amount : </string>
+    <string name="upg_general_Amount">Amount</string>
+
+
+    <string name="upg_receipt_Reject_Reason_label">Rejection Reason</string>
+
+    <string name="AmountEGP">"Amount: "</string>
+    <string name="ToRefund">(Refund) To:</string>
+    <string name="FromSale">(Sale) From:</string>
+    <string name="Notification">" Notification "</string>
+    <string name="DateLessToday"> Date must be greater than today</string>
+
+    <string name="TrxID">Trx ID </string>
+    <string name="SalesFees">"Total: "</string>
+    <string name="TrxnType">Trxn. Type</string>
+    <string name="upg_paylink_order_Type_label">Order Type</string>
+    <string name="Time">Time</string>
+    <string name="Ref">Ref #</string>
+
+    <string name="upg_general_from">From</string>
+
+    <!-- Strings related to login Screen -->
+    <string name="upg_general_login">Login</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_email">This email is not valid</string>
+
+    <string name="upg_general_language">عربى</string>
+
+    <string name="error_six">PIN must be six digit</string>
+    <string name="password_not_much">PIN not match</string>
+    <string name="password_unique">PIN must be unique don\'t duplicate any number </string>
+
+
+    <string name="password_not_accppt">Sequential digits are not allowed</string>
+
+
+    <string name="invalid_pin">invalid PIN</string>
+    <string name="invalid_lenght">Invalid length</string>
+
+
+    <string name="Therefundamount">The amount must be less than or equal transaction amount</string>
+
+    <!-- Strings related to Main Screen -->
+    <string name="upg_general_powered_by">Powered by Paysky.io</string>
+    <string name="upg_general_provide_by">Provided by EBC</string>
+    <string name="upg_general_Refund">Refund</string>
+    <string name="Void">Void</string>
+
+
+    <string name="upg_general_Send">Send</string>
+    <string name="upg_Moresettings_title">More settings</string>
+    <string name="upg_general_Tips">Tips</string>
+    <string name="upg_paylink_history_payOnDelivery_label">Pay on Delivery</string>
+    <string name="Billnumber">Bill number</string>
+    <string name="Storelabel">Store label</string>
+    <string name="upg_general_Loyaltynumber">Loyalty number</string>
+    <string name="upg_new_merchant_label_email">Email Address</string>
+    <string name="upg_general_Customerlabel">Customer  label</string>
+    <string name="upg_MoreSettings_transaction_purpose_label">Purpose of transaction</string>
+    <string name="upg_receipt_Refund_Reason_label">Refund Reason</string>
+    <string name="VoidReason">Void Reason</string>
+    <string name="voiddetail">Enter void details </string>
+
+
+    <string name="upg_dialog_refund_card_title_label">Enter Refund Details </string>
+    <string name="capturedetail">Enter capture details </string>
+    <string name="upg_dialog_mobilenumber_title">Enter Mobile Number</string>
+    <string name="upg_dialog_request_email_title">Enter Email Address </string>
+
+    <string name="upg_dialog_request_email_mobile_title">Enter Email Address or Mobile Number</string>
+
+
+    <string name="upg_dialog_meeza_digital_id_title">Enter MeezaDigital ID / Mobile Number</string>
+    <string name="upg_dialog_meeza_digital_title">MeezaDigital ID / Mobile Number</string>
+
+    <string name="upg_Notification_No_notifcation_label">No notifications</string>
+
+    <string name="upg_general_MobileNumber">Mobile Number</string>
+    <string name="upg_top_confiramtion_title_label">Top up confirmation</string>
+    <string name="upg_purchase_Comfirmation_title">Purchase request confirmation</string>
+    <string name="mtomComfirmationsucceffuly">Purchase request has been successfully sent  </string>
+
+    <!-- Cach -->
+    <string name="upg_general_Confirm">Confirm</string>
+    <string name="upg_general_receipt">Receipt</string>
+    <string name="upg_receipt_Transaction_status_label">Transaction Approved</string>
+    <string name="upg_receipt_DateTime_label">Date / Time</string>
+    <string name="upg_general_More">More</string>
+    <string name="upg_general_Operation">Operation</string>
+    <string name="upg_retrieving_transactions_message">Retrieving Transactions details</string>
+    <string name="GeneratingDynamicQR">Generating Dynamic QR</string>
+
+    <string name="upg_receipt_Send_receipt_btn">Send Receipt</string>
+    <string name="upg_general_capture">Capture</string>
+    <string name="upg_general_Mobileno">Mobile no</string>
+    <string name="upg_general_meeza_digital_merchant_id">Meeza Digital Merchant Id</string>
+
+    <string name="upg_general_meeza_digital_id">MeezaDigital ID:</string>
+
+    <string name="upg_general_cardno">Card No.</string>
+
+    <string name="upg_receipt_Sender_Name_label">Name</string>
+    <string name="upg_receipt_Reference_number_label">Network Ref. #</string>
+    <string name="upg_receipt_Refund_User_Creator_label">Refund user creator</string>
+    <string name="upg_receipt_Refund_Source_label">Refund source</string>
+    <string name="upg_receipt_transaciton_id_label">OMNI Trx ID</string>
+    <string name="upg_general_Fee">Fee</string>
+    <string name="gpsAsk">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="TransactionApprove">Transaction Approved</string>
+    <string name="TransactionReject">Transaction Rejected</string>
+
+    <string name="upg_receipt_Tahweel_transaciton_id_label">MeezaDigital Trx ID</string>
+    <string name="upg_receipt_Tahweel_transaciton_merchant_id_label">MeezaDigital Merchant ID</string>
+
+    <string name="upg_general_generate">Generate</string>
+    <string name="upg_dialog_amount_title">Enter the  amount</string>
+
+    <string name="loading">Loading</string>
+
+    <string name="upg_paylink_item_numberpayment_label">Number of payment</string>
+    <string name="upg_general_file">File</string>
+
+
+    <string name="upg_general_payment_title">Payment</string>
+
+    <string name="salecash">Sale - Cash</string>
+    <string name="usedfinger">You can use your finger print </string>
+    <string name="upg_passcode_reenter_text">Re-enter new password</string>
+    <string name="upg_passcode_enter_text">Enter  password </string>
+    <string name="forgetPin">Forgot password ? </string>
+
+    <string name="pinerror">Enter pin can\'t try finger print again </string>
+    <string name="upg_passcode_wrong_text">Password doesn\'t match</string>
+    <string name="upg_passcode_correct_text">Password is correct</string>
+    <string name="fingernotmatch">your finger print not match try again </string>
+    <string name="finishedfingerprint">You finish the numbers of trials enter password</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="upg_dashboard_terminal_id_label">Tid:</string>
+
+    <string name="upg_receipt_Transaction_ID_label">TID</string>
+    <string name="upg_receipt_VAT_label">VAT</string>
+    <string name="pay">Pay Topup</string>
+
+    <string name="upg_general_Paid">Paid</string>
+
+    <string name="upg_SBC_card_number_hint">Card No.</string>
+    <string name="upg_SBC_expire_date_hint">Expiry Date</string>
+
+    <string name="app_ip">Enter ip address </string>
+
+    <string name="upg_general_total">Total</string>
+    <string name="upg_general_Logout">Log out</string>
+    <string name="upg_general_Support">Support</string>
+    <string name="upg_general_About">About</string>
+    <string name="upg_general_manual_lbl">Manual</string>
+    <string name="upg_general_contactless_lbl">Contactless</string>
+
+    <string name="upg_new_merchant_submit_btn">Submit</string>
+    <string name="transaction_auth_void">Transaction has been voided successfully"</string>
+    <string name="Thanksforusingourapplication">Thanks for using upg merchant application</string>
+
+    <string name="genrateUrl">Payment link created successfully! </string>
+    <string name="nochartData">No chart data available </string>
+    <string name="nochartDataInternet">Chart data couldn\'t be loaded, check your internet connection </string>
+
+    <string name="Pleaseselectservicetype">Select service type</string>
+    <string name="upg_dialog_app_pass_title">Enter Aِِِdmin Password </string>
+    <string name="app_pass_setting_erro">Application Password is incorrect </string>
+    <string name="supoortticket">
+
+
+        Support ticket created successfully
+                               \n\n Ticket # :  %s
+                               \n For any needed support, call +20225476155
+
+
+    </string>
+    <string name="upg_general_Description">Description</string>
+
+    <string name="vpos_SBC_expire_date_hint">Expiry Date (MM/YY)</string>
+    <string name="upg_support_right_Reservation_label">All Rights Reserved \u00A9
+Egyptian Banks Company 2019</string>
+
+    <string name="upg_support_about_label">
+        UPG Merchant app. is a Mobile application
+offered by Egyptian banks company (EBC)
+as a solution component of its UPG payment
+gateway (www.UPGOnline.com) to enable merchants
+initiate payments, receive payment,
+notifications and manage their merchant
+reports.
+    </string>
+
+    <string name="invalid_phone">Invalid Phone Number.</string>
+    <string name="upg_general_Notification">Notification</string>
+    <string name="image">Images</string>
+    <string name="app_password">App Password</string>
+    <string name="invalid_mail">Invalid Email Address.</string>
+
+    <string name="no_internet_connectiity">Can not detect internet connection, make sure you are connected.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="upg_general_phone_number">Phone Number</string>
+
+
+    <string name="sale_by_qr">Sale by QR</string>
+    <string name="m2m">Purchase</string>
+    <string name="cashOut">ATM Cash Out</string>
+    <string name="upg_new_merchant_label_mobile_number">Mobile Number</string>
+    <string name="upg_dialog_Transactionfilter_mobile_hint">Mobile Number (01xxxxxxxxx)</string>
+
+    <string name="upg_paylink_transaction_number_label">Ref. #</string>
+    <string name="upg_paylink_payer_name_label">Payer Name</string>
+    <string name="number_payment_name">Max Number</string>
+    <string name="upg_paylink_item_number_payment_name_label">Max Number of payment</string>
+    <string name="RecieverNumber">Receiver Number</string>
+    <string name="upg_paylink_payer_name_hint">Payer Name (Optional)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="transactions">Transactions</string>
+
+    <string name="transaction">Transaction</string>
+    <string name="transaction_history">Transaction History</string>
+
+    <string name="date_error">Invalid Date</string>
+    <string name="upg_paylink_transaction_number_hint">Network Ref. # (Optional)</string>
+    <string name="upg_general_Expiration">Expiration</string>
+    <string name="upg_paylink_expiration_date_hint">Expiration (Optional)</string>
+
+
+    <string name="upg_dialog_refund_card_DateExpiration_hint">Date Expiration (mm/yy)</string>
+    <string name="upg_general_Date">Date: </string>
+    <string name="upg_receipt_Merchant_ID_label">MID</string>
+    <string name="upg_receipt_MTIN_label">MTIN</string>
+    <string name="upg_receipt_CTIN_label">CTIN</string>
+    <string name="upg_receipt_TRN_label">TRN</string>
+
+    <string name="upg_general_enterfileds">Enter The Following Fields</string>
+
+
+    <!--keyboard strings-->
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eghit">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="zerozero">00</string>
+
+
+    <string name="upg_SBC_select_terminal_title">Select Terminal </string>
+
+    <string name="mutiplay">Must be  multiples of 50 </string>
+
+    <string name="upg_general_services">Services</string>
+    <string name="error_in_server">Error in connection.</string>
+    <string name="upg_general_required">Required</string>
+    <string name="upg_general_check_fees">Check  Fees</string>
+    <string name="notAvalible">Service not available  now</string>
+    <string name="upg_SBC_card_data_title">Enter card data</string>
+    <string name="upg_SBC_card_holder_hint">Card holder name</string>
+    <string name="upg_SBC_cvc_hint">CVC</string>
+    <string name="upg_general_pay">Pay</string>
+    <string name="upg_general_retrieving_data">Retrieving Data</string>
+    <string name="invalid_card_number_length">Enter valid card number</string>
+    <string name="enter_valid_owner">Enter valid card holder name</string>
+    <string name="invalid_expire_date">Card expiry date should be 4 digits.</string>
+    <string name="invalid_ccv">CVC should be 3 digits length.</string>
+    <string name="invalid_expire_date_date">Invalid Expire Date</string>
+    <string name="error_try_again">Error in server, try again.</string>
+    <string name="sale_by_manual">Sale by Card</string>
+    <string name="upg_sale_by_cash_title_label">Sale by Cash</string>
+    <string name="upg_sale_by_cash_reciept_number_label">Receipt #</string>
+    <string name="upg_sale_by_cash_customer_TIN_label">Customer\'s TIN</string>
+
+    <string name="upg_general_optional">  Optional</string>
+
+    <string name="upg_general_history"><u>History</u></string>
+    <string name="upg_general_device_rooted_message">Your device is rooted</string>
+    <string name="service_not_available">Service not available.</string>
+    <string name="select_severity">Select severity</string>
+    <string name="enter_amount">Enter the amount</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="sending_support">Sending Support Ticket</string>
+    <string name="sending_mail">Sending Receipt</string>
+    <string name="upg_dashboard_transaction_count_label">Transactions:</string>
+    <string name="upg_general_password_updated_message">Password has been updated</string>
+
+    <string name="upg_general_required_field">Required</string>
+    <string name="upg_new_merchant_phone_hint">+201xxxxxxxxx</string>
+
+    <string name="upg_new_merchant_full_name">Full Name</string>
+    <string name="upg_new_merchant_label_country">Country</string>
+    <string name="upg_new_merchant_business_name_label">Business name</string>
+    <string name="upg_new_merchant_label_address">Address</string>
+    <string name="upg_new_merchant_business_category_label">Business Category</string>
+    <string name="upg_new_merchant_website_label">Website</string>
+    <string name="upg_new_merchant_notes_label">Notes</string>
+    <string name="upg_new_merchant_attachment_label">Upload Documents</string>
+    <string name="pleasechooseCountry">Choose country</string>
+    <string name="upg_login_open_merchant_account_label">New? Open a merchant account</string>
+    <string name="upg_new_merchant_open_account">New? Open a merchant account</string>
+    <string name="addAccountComplete">Thank you, one of our solutions consultants will be in touch with you shortly </string>
+
+    <string name="upg_general_chooseCountry">Choose Country</string>
+    <string name="upg_general_choose">Choose</string>
+
+    <string name="upg_dialog_attachment_commercial_registration_label">Commercial registration</string>
+    <string name="upg_dialog_attachment_tax_registration_label">Tax registration</string>
+    <string name="upg_dialog_attachment_id_document_label">ID document</string>
+    <string name="upg_dialog_attachment_store_photo_label">Store photo</string>
+    <string name="upg_new_merchant_select_documents_btn">Select Documents</string>
+    <string name="upg_general_other">Other</string>
+
+    <string name="upg_general_done">Done</string>
+
+
+    <!--    location related strings-->
+
+    <string name="google_maps_key" translatable="false">AIzaSyAXwzWXPLT3m2U_2xjWpuCxRr_-5ph2MQ8</string>
+    <string name="upg_location_hint">search for a location here</string>
+    <string name="location_picked_search_hint"> picked, search for another one here</string>
+    <string name="selected_location">selected location</string>
+    <string name="location_not_detected">Your location has not been detected by GPS</string>
+    <string name="cant_get_location">can\'t get location for now</string>
+    <string name="location_not_detected_press_back">no location picked yet, search for one</string>
+
+    <string name="upg_general_balance">Balance</string>
+
+
+    <string name="upg_general_available_balance">Available Balance</string>
+
+
+    <string name="upg_general_please_login">Please Login</string>
+
+
+    <string name="upg_general_receipt_share_social_media">
+        Your Payment to %1$s was successful\nDate: %2$s \nRef #:%3$s \nAmount: %4$s %5$s
+\nCard ending: %6$s
+\nPowered by PaySky.io
+    </string>
+    <string name="tv_noNfc">There is no NFC module on this device</string>
+    <string name="tv_tapYourCard">Please tap the Card or Phone </string>
+    <string name="ad_progressBar_mess">Do not remove or move card during reading.</string>
+    <string name="snack_doNotMoveCard">Do not move card, try again !</string>
+    <string name="snack_unknownEmv">Unknown EMV card</string>
+    <string name="snack_lockedNfcCard">NFC is locked on this card.</string>
+    <string name="ad_nfcTurnOn_title">NFC is turned off.</string>
+    <string name="ad_nfcTurnOn_message">You need turn on NFC module for scanning. Wish turn on it now?</string>
+    <string name="ad_nfcTurnOn_pos">Turn on</string>
+    <string name="ad_nfcTurnOn_neg">Dismiss</string>
+    <string name="upg_general_trading">Trading …</string>
+    <string name="upg_paylink_select_merchant_type_hint">Please select merchant type</string>
+    <string name="upg_paylink_select_order_type_hint">Please select merchant type</string>
+    <string name="upg_support_contact_label">For Support and customer service please contact</string>
+    <string name="upg_support_open_service_request_label">Open service request</string>
+    <string name="upg_dialog_From_account_number_label">From account number</string>
+    <string name="upg_dialog_to_account_number_label">To account number</string>
+    <string name="upg_dialog_keyboard_online_pin_label">online pin</string>
+    <string name="upg_general_delete">Delete</string>
+    <string name="upg_general_clear">Clear</string>
+    <string name="upg_general_password">Password</string>
+    <string name="upg_print_reciept_Termina_Id_label">Terminal I.D. :</string>
+    <string name="upg_print_reciept_merchant_label">Merchant #:</string>
+    <string name="upg_print_reciept_expiry_date_label">Expiry Date :</string>
+    <string name="upg_print_reciept_Offline_Sale_label">Offline Sale</string>
+    <string name="upg_print_reciept_application_label">Application :</string>
+    <string name="upg_print_reciept_application_id_label">Application ID:</string>
+    <string name="upg_general_batch">Batch:</string>
+    <string name="upg_general_receipt_dot">Receipt #</string>
+    <string name="upg_general_stan">STAN:</string>
+    <string name="upg_general_rrn">RRn:</string>
+    <string name="upg_general_auth_no">Auth.no :</string>
+    <string name="upg_general_total_dot">TOTAL :</string>
+    <string name="upg_general_print_type_label">Merchant Copy</string>
+    <string name="upg_manual_m2m_btn">Manual M2M</string>
+    <string name="upg_general_app_version">ver</string>
+    <string name="upg_help_open_support_ticket">Open Support Ticket</string>
+    <string name="upg_help_frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="upg_open_support_ticket">Open Support Ticket</string>
+    <string name="upg_general_comment">Comment</string>
+    <string name="please_select_merchant_type">Please select merchant type</string>
+
+    <string name="adcb_general_comment">Comment</string>
+    <string name="adcb_support_right_Reservation_label">All Rights Reserved\n\u00A9 Abu Dhabi Commercial Bank (ADCB)</string>
+
+    <string name="adcb_choose_email_sender_title">Send mail using</string>
+    <string name="adcb_general_help_videos">Video Tutorials</string>
+    <string name="adcb_general_more_videos">More videos</string>
+    <string name="adcb_send_receipt_by">Send receipt</string>
+    <string name="adcb_how_to_make_sale_transaction">How to make a sale transaction using card?</string>
+    <string name="adcb_how_to_create_pay_link">How to create a payment link?</string>
+
+    <string name="vpos_splash_partenership_title">In Partnership with</string>
+    <string name="vpos_login_username_hint">User Name</string>
+    <string name="vpos_login_password_hint">Password</string>
+
+    <string name="vpos_change_password_old_password_hint">Old Password</string>
+    <string name="vpos_change_password_new_password_hint">New Password</string>
+    <string name="vpos_change_password_reneter_new_password_hint">Renter New Password</string>
+    <string name="pay_by_card_nfc">Pay by Card: NFC</string>
+    <string name="amount">Amount</string>
+    <string name="egp">EGP</string>
+
+
+    <string name="upg_general_send_by_title">Send By</string>
+
+    <string name="adcb_faq_what_is_pace_pay">Q: What is Pace Pay?</string>
+    <string name="adcb_answer_faq_what_is_pace_pay">Pace Pay from ADCB (Powered by PaySky in partnership with Visa) is the region\'s first Virtual POS solution, enabling merchants to accept payments by just using their mobile phones, Anytime, Anywhere!</string>
+
+
+    <string name="adcb_faq_how_to_make_sale_transaction">Q: How can I make a sale transaction by Card?</string>
+    <string name="adcb_faq_answer_to_make_sale_transaction">To make a sale transaction by Card:\n- Open your ADCB Pace Pay application, go on “Services” tab, then click on “Sale by Card” \n- Fill in the Amount, Card number, Expiry date and CVC (which can be found on the back of the Card)
+
+\n- If the application asks you to enter the One-time verification code, please ask the customer to enter the code received from his bank by SMS.
+
+\n- Upon entry, click submit button and the transaction should proceed for authorization.\nYou can also watch the Video on: https://youtu.be/zSkodsjfRic for more details
+
+</string>
+
+
+    <string name="adcb_faq_cancel_refunt_transaction">Q: How can I Cancel or Refund a transaction?</string>
+
+    <string name="adcb_faq_answer_cancel_refunt_transaction">To Cancel or Refund a transaction:
+
+- Go to Dashboard tab
+
+\n- Click more details, Select the date when the transaction took place in search filters. While selecting date, the transaction receipt number can also be provided in the network ref.# field for the exact transaction
+
+\n- Click the transaction you want to refund
+
+\n- Enter your Login PIN Code to confirm refund
+
+\n- Enter the amount you want to Refund, Click Next.
+    </string>
+
+    <string name="adcb_faq_send_paymnet_paylink">Q: How can I send a payment link (Pay by Link) to a remote customer to collect payment?</string>
+
+    <string name="adcb_faq_answer_send_paymnet_paylink">To Send a payment link request to customer:\n- Go to “Services” tab, Click “
+        Generate PayLink”\n- Fill the Form with the payer details and click the “Generate” button\n- Choose the way to want to share the link (Email or SMS or Social Media)\n- Enter the payer\'s email or mobile number ( along with country code e.g. +971) or Social media, as selected.
+
+\n- The Payer will receive a notification with the payment request, with a link to open and enter his/her cards data to make payment.
+
+\n- As soon as payment is completed, you will receive a notification that the transaction was paid, you can always view the status of all the sent payment Links in the "History" section in the bottom of the "Generate PayLink" view.\nYou can also watch the Video on: https://youtu.be/nIMHC7Ew1H0 for more details</string>
+
+
+    <string name="adcb_faq_how_can_share_payment_link">Q: How can I Share the payment link with my customers?</string>
+    <string name="adcb_faq_answer_how_can_share_payment_link">You can share the payment link using  email or SMS (please add the country code eg.+971) or any Social media you have installed on your device.</string>
+
+
+    <string name="adcb_faq_when_payment_link_expires">Q: When does the payment link expire?</string>
+    <string name="adcb_answer_faq_when_payment_link_expires">Payment link expires 24 hours from the time of sending the link.</string>
+
+
+    <string name="adcb_faq_how_do_you_get_cutomer_support">Q: How do you get customer support?</string>
+    <string name="adcb_answer_faq_how_do_you_get_cutomer_support">To get customer support, you can submit your question in the support section below or write to: adcbpacepay@adcbmerchantservices.com &amp; quote the Merchant ID mentioned in daily settlement report/statement received &amp; NOT the ID mentioned on the mobile app.</string>
+
+
+    <string name="adcb_faq_keep_application_logged_in">Q: How do you keep the application logged in?</string>
+    <string name="adcb_answer_faq_keep_application_logged_in">If the mobile gets locked, the app will log out automatically. You will need to login again with full credentials. To experience a seamless experience, you can use “Remember Me” option while logging into the app.  This will ensure to login again into the app with your password only</string>
+
+
+    <string name="adcb_faq_default_logout_time">Q: What is the default app logout time?</string>
+    <string name="adcb_faq_answer_default_logout_time">30 Minutes</string>
+
+
+    <string name="adcb_faq_attempts_for_incorrect_login">Q: How many attempts are allowed for the incorrect login in the app?</string>
+    <string name="adcb_faq_answer_attempts_for_incorrect_login">6 attempts</string>
+
+    <string name="adcb_faq_how_to_reset_password">Q: How can i reset my password?</string>
+    <string name="adcb_faq_answer_how_to_reset_password">On the login screen, Press "Forgot Password",  enter your username and email and press submit,
+    You will then receive an email notification with the new password.</string>
+
+    <string name="adcb_faq_how_to_generate_receipt">Q: How to generate a receipt when a customer requests?</string>
+
+
+    <string name="adcb_faq_answer_how_to_generate_receipt">As part of successful transaction, a receipt will be generated and shared to the mentioned Email ID or Mobile whichever is provided. In case of a duplicate receipt requested by Customer, Merchant can regenerate the receipt from the dashboard.
+
+    \n- Go to Dashboard tab
+
+    \n- Click more details, Select the date when the transaction took place in search filters. While selecting date, the transaction receipt number can also be provided in the network ref.# field for the exact transaction
+
+    \n- Click the transaction you want to regenerate the receipt.
+
+    \n- Click the “Send Receipt” button
+
+    \n- Enter the Email ID or Mobile number (along with country code e.g. +971)  and click the submit button. The receipt will be sent to the mentioned email id or mobile number
+    </string>
+
+
+    <string name="adcb_email_support"><a href="mailto:adcbpacepay@adcbmerchantservices.com">adcbpacepay@adcbmerchantservices.com</a></string>
+
+    <string name="adcb_general_email_title"> Email</string>
+    <string name="adcb_general_sms_title"> SMS</string>
+
+    <string name="upg_general_faq_list">FAQ List</string>
+    <string name="upg_receipt_original_trx_id_label">Original Trx ID</string>
+    <string name="upg_paylink_message">Message</string>
+    <string name="upg_paylink_message_hint">Type Your Message (Optional)</string>
+    <string name="upg_general_your_link">Your Link</string>
+    <string name="upg_generalshare_by_your_link">Share By</string>
+    <string name="upg_dialog_social_media">Social Media</string>
+    <string name="upg_general_completed">Completed!</string>
+
+    <string name="upg_general_qr_link_title">QR Link</string>
+    <string name="upg_general_FAQs">FAQs</string>
+    <string name="upg_general_password_reset">Password Reset</string>
+    <string name="upg_general_password_reset_fill_text">Please fill form below to reset your password</string>
+    <string name="upg_general_paylink_history">PayLink History</string>
+    <string name="upg_general_pay_by_card_title">Pay by Card</string>
+    <string name="upg_general_pay_by_link_title">Pay by Link</string>
+    <string name="upg_general_history_title">History</string>
+    <string name="upg_dialog_completed_link_sent"> Link was sent successfully</string>
+    <string name="upg_general_password_reset_successfully_check_email">Password reset request was sent successfully, Please check your Email</string>
+    <string name="upg_general_password_reset_successfully_check_phone">Password reset request was sent successfully, Please check your Phone</string>
+    <string name="upg_general_password_reset_successfully_check_email_phone">Password reset request was sent successfully, Please check your email or phone</string>
+
+    <string name="adcb_support_about_label">
+        ADCB Pace Pay is an innovative payment
+        solution that lets you accept card payments
+        from your customers on your mobile phone
+        without the hassle of using a payment
+        acceptance device.
+    </string>
+
+
+    <string name="adcb_in_partnership_with">In Partnership with:</string>
+    <string name="upg_general_new">New?</string>
+    <string name="upg_general_ok">OK</string>
+    <string name="no_services_are_currently_available">No services are currently available</string>
+    <string name="add_another_service">Add Another Service?</string>
+    <string name="are_you_sure_you_want_to_add_another_service">Are you sure you want to add another service</string>
+    <string name="upg_general_title_pay_by_cash">Pay by Cash</string>
+    <string name="upg_general_answer_letter">A:</string>
+    <string name="upg_general_please_show_qr_link">Please show the QR-Link to customer:</string>
+    <string name="survey">Survey</string>
+    <string name="upg_general_filter">Filter</string>
+
+
+</resources>

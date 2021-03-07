@@ -1,0 +1,766 @@
+<resources>
+    <string name="upg_general_app_name">VPOS SDK</string>
+    <string name="upg">بوابة الدفع الموحدة</string>
+    <string name="upg_general_Version">" إصدار "</string>
+    <string name="upg_general_Close"> إغلاق </string>
+    <string name="upg_dialog_Confirmation_title_label"> تاكيد الامر  </string>
+    <string name="upg_dialog_Confirmation_message_label">هل أنت متأكد من أنك تريد الخروج من التطبيق؟</string>
+    <string name="upg_general_cancel">إلغاء</string>
+    <string name="upg_general_Paid">مدفوع</string>
+    <string name="upg_new_merchant_phone_hint">+201xxxxxxxxx</string>
+
+    <string name="upg_general_manual_lbl">يدوى</string>
+    <string name="upg_general_contactless_lbl">بطاقة</string>
+    <string name="adcb_powered_by">بواسطة</string>
+
+    <string name="upg_general_numbers"> رقم </string>
+    <string name="cashOut">سحب نقدي (صراف آلي)</string>
+
+    <string name="adcb_general_comment">أضف تعليق</string>
+
+    <string name="validMeezaDigitalIdOrMobile">أدخل رقم ميزة ديجيتال/ أو رقم محمول صحيح </string>
+
+    <string name="upg_general_payment_title">الدفع</string>
+
+    <string name="upg_general_send_by_title">إرسال بواسطة</string>
+
+    <string name="adcb_support_right_Reservation_label">جميع الحقوق محفوظة \u00A9
+بنك أبوظبى التجارى 2019</string>
+
+    <string name="upg_general_please_login"> الرجاء الدخول</string>
+
+    <string name="nochartData">لا يوجد بيانات بالرسم البياني </string>
+    <string name="nochartDataInternet">لايمكن تحديث بيانات الرسم البياني ,  افحص اتصالك بالانترنت</string>
+
+    <string name="upg_paylink_history_TotalResult_label">اجمالي النتائج</string>
+    <string name="upg_dialog_attachment_title_label"> إختر المرفقات </string>
+    <string name="transaction_auth_void">تم الغاء المعاملة بنجاح</string>
+    <string name="upg_general_dispute">"نزاع: "</string>
+
+
+    <string name="upg_paylink_history_TotalDueAmount_label">مجموع المبالغ المستحقة</string>
+    <string name="upg_paylink_history_TotalDueCount_label">مجموع العدد المستحق</string>
+    <string name="upg_paylink_history_TotalPaidAmount_label">مجموع المبالغ المدفوعة</string>
+    <string name="upg_paylink_history_TotalPaidCount_label">مجموع العدد المدفوع</string>
+    <string name="upg_paylink_history_TotalCount_label">عدد اجمالي الحركات</string>
+    <string name="clear">مسج</string>
+
+    <string name="Must_be_at_least">يجب ان يكون علي الاقل </string>
+    <string name="upg_dialog_request_email_mobile_title"> أدخل البريد الإلكترونى أو رقم المحمول</string>
+
+    <string name="vpos_SBC_expire_date_hint"> تاريخ الإنتهاء (شهر/سنة)</string>
+
+    <string name="ConnectingtoUPG">  جاري الاتصال بUPG</string>
+
+
+    <string name="sharerecipt">نشر الباي لينك</string>
+
+
+    <string name="sharePayLink">
+
+
+%1$s
+  \n
+        يطلب مبلغ
+  %2$s  %3$s
+          \n
+        الرقم المرجعي :
+         # %4$s
+  \n
+
+        لتاكيد دفع المبلغ اضعط علي الرابط التالي:
+        \n
+        %5$s
+        \n
+ تاريخ انتهاء صلاحية الرابط
+   %6$s
+        \n
+برعاية باي سكاي لحلول الدفع
+ </string>
+
+
+    <string name="sharePayLinkWithoutRef">
+%1$s
+  \n
+        يطلب مبلغ
+  %2$s  %3$s
+
+
+        لتاكيد دفع المبلغ اضعط علي الرابط التالي:
+        \n
+        %4$s
+        \n
+ تاريخ انتهاء صلاحية الرابط
+   %5$s
+        \n
+برعاية باي سكاي لحلول الدفع
+ </string>
+
+
+    <string name="upg_paylink_send_PayLink_btn">إرسال طلب دفع</string>
+
+    <string name="genrateQuickCode">إنشاء الكود السريع</string>
+
+    <string name="SigninFromOtherAccount">تم انتهاء الجلسه</string>
+    <string name="genrateUrl">تم إرسال طلب الدفع بنجاح</string>
+
+    <string name="fontappr">font/cairobold.ttf</string>
+    <string name="fontappb">font/cairobold.ttf</string>
+
+    <string name="upg_login_login_label">تسجيل الدخول</string>
+    <string name="upg_change_password_change_label">تغيير كود التحقق</string>
+    <string name="upg_change_password_old_password_hint">كود التحقق القديم</string>
+    <string name="upg_change_password_new_password_hint">كود التحقق الجديد</string>
+    <string name="upg_change_password_reneter_new_password_hint">إعادة ادخال كود التحقق الجديد</string>
+    <string name="error_six">كود التحقق يجب ان يكون ست ارقام</string>
+    <string name="password_not_much">كود التحقق غير متطابق</string>
+    <string name="password_unique">كود التحقق يجب ان يكون مميز لايمكن تكرار اي رقم</string>
+    <string name="upg_general_password_updated_message">تم تحديث كود التحقق بنجاح</string>
+    <string name="invalid_pin">كود التحقق غير صحيح</string>
+    <string name="password_not_accppt">كلمة المرور لايمكن ان تحتوي علي ارقام متتالية </string>
+    <string name="newUpdate">تحديث جديد </string>
+    <string name="newUpdateDes">هناك تحديث جديد للتطبيق الرجاء تحديث التطبيق</string>
+
+
+    <string name="upg_login_username_hint">رقم المحمول / رقم التاجر</string>
+
+
+    <string name="upg_login_password_hint">كود التحقق</string>
+    <string name="upg_login_Remember_Me_label">تذكرني</string>
+    <string name="upg_login_keyboard_label">تسجيل الدخول</string>
+    <string name="upg_general_QR">كود الدفع</string>
+    <string name="upg_general_DashBoard">ملخص العمليات</string>
+    <string name="upg_dashboard_TotalSales_label">إجمالي المبيعات</string>
+    <string name="upg_dashboard_Total_Tips_label">
+         إجمالي الإكراميات
+     /
+رسوم الخدمة
+       </string>
+    <string name="upg_general_Channel">"طريقة الدفع: "</string>
+    <string name="upg_dashboard_transaction_count_label">"المعاملات: "</string>
+
+    <string name="upg_general_Terminal">"نقطة البيع: "</string>
+    <string name="quickCode">الكود السريع </string>
+    <string name="upg_dialog_AtmQuickCode_title_label">الكود السريع لماكينة السحب</string>
+    <string name="upg_dialog_AtmQuickCode_enter_title">
+        الرجاء إدخال الكود السريع في الماكينة
+
+
+
+    </string>
+
+    <string name="upg_dialog_use_customer_app_label">يرجى استخدام التطبيق الخاص  بالعميل لفحص كود المعاملة</string>
+
+
+    <string name="DeniedMessage">لو اردت استخدام هذه الخدمة يجب الذهاب الي   [الاعدادات] > [التراخيص]</string>
+    <string-array name="notitype" translatable="false">
+        <item>البريد</item>
+        <item>المحمول</item>
+    </string-array>
+
+
+    <string-array name="currncytype" translatable="false">
+        <item>جنية</item>
+        <!--<item>دولار</item>-->
+        <!--<item>يورو</item>-->
+    </string-array>
+
+    <string name="lock_input_again">Re-enter new passcode</string>
+    <string name="lock_input_not_match">Passcodes do not match.</string>
+    <string name="please_enter_passcode">Enter a passcode of 4-6 digits</string>
+
+    <string name="upg_login_forgot_password_label">نسيت كلمة المرور؟</string>
+
+    <string name="upg_general_fees">Fees</string>
+    <string name="upg_reciept_Total_label">الإجمالي </string>
+
+    <string name="upg_general_Amountdot">"المبلغ: "</string>
+
+    <string name="upg_general_Amount">المبلغ</string>
+    <string name="upg_receipt_Reject_Reason_label">سبب الالغاء</string>
+
+    <string name="upg_general_from">من</string>
+    <string name="sending_mail">جاري إرسال الايصال</string>
+    <string name="upg_general_language">English</string>
+    <string name="sending_support">جاري إرسال تذكرة دعم فنى</string>
+
+    <!-- Strings related to login Screen -->
+    <string name="upg_general_login">تسجيل الدخول</string>
+    <string name="error_invalid_password">كلمه المرور قصيره</string>
+    <string name="error_field_required">هذا الحقل مطلوب</string>
+    <string name="Therefundamount">يجب أن يكون المبلغ أقل من أو يساوي مبلغ المعاملة</string>
+    <string name="upg_receipt_Refund_Reason_label">سبب الاسترجاع</string>
+    <string name="VoidReason">سبب الالغاء</string>
+    <string name="upg_general_Refund">استرجاع</string>
+
+
+    <string name="voiddetail"> ادخل تفاصيل إلغاء المعاملة </string>
+
+    <string name="upg_dialog_refund_card_title_label"> ادخل تفاصيل الاسترجاع </string>
+    <string name="upg_dialog_mobilenumber_title">ادخل رقم المحمول</string>
+    <string name="upg_dialog_request_email_title"> ادخل البريد الالكترونى</string>
+    <string name="upg_Notification_No_notifcation_label">لا توجد اشعارات</string>
+
+    <string name="Void">إلغاء </string>
+
+    <string name="upg_general_MobileNumber">رقم المحمول</string>
+    <string name="upg_general_Send">إرسال</string>
+    <string name="upg_Moresettings_title">إعدادات اضافية</string>
+    <string name="upg_general_Tips">إكرامية</string>
+    <string name="Billnumber">رقم الفاتوره</string>
+    <string name="Storelabel"> مرجع المتجر</string>
+    <string name="upg_general_Loyaltynumber">رقم برنامج الولاء</string>
+    <string name="upg_general_Customerlabel">مرجع العميل</string>
+    <string name="upg_MoreSettings_transaction_purpose_label">الغرض من العملية</string>
+    <string name="upg_new_merchant_label_email">البريد الالكترونى</string>
+    <string name="upg_retrieving_transactions_message">إسترجاع تفاصيل المعاملات</string>
+    <string name="GeneratingDynamicQR">جاري إنشاء كود الدفع</string>
+    <string name="update">تحديث </string>
+    <string name="upg_general_to">الي </string>
+
+    <!-- Strings related to Main Screen -->
+    <string name="upg_general_powered_by">بواسطة باي سكاي</string>
+    <string name="error_email">البريد الالكتروني غير صحيح</string>
+    <string name="upg_paylink_history_payOnDelivery_label">الدفع عن الاستلام</string>
+
+    <string name="upg_dialog_Transactionfilter_title">بحث المعاملات </string>
+    <string name="upg_dialog_Transactionfilter_TahweelTransactionID_label">الرقم المرجعى</string>
+    <string name="upg_dialog_Transactionfilter_Datefrom_hint">تاريخ من </string>
+    <string name="upg_dialog_Transactionfilter_Dateto_hint">تاريخ الي</string>
+    <string name="upg_general_Update">تحديث</string>
+    <string name="upg_general_receipt">الإيصال</string>
+
+    <string name="upg_top_confiramtion_title_label">تاكيد البيانات</string>
+
+    <string name="upg_general_confirmation">"تاكيد"</string>
+    <string name="validmobileNumber"> ادخل رقم محمول صحيح</string>
+    <string name="upg_passcode_enter_text"> ادخل  كلمة المرور </string>
+    <string name="forgetPin">نسيت كلمة المرور ؟</string>
+    <string name="upg_receipt_Refund_User_Creator_label">تم استرجاع المبلغ</string>
+    <string name="upg_receipt_Refund_Source_label">مكان استرجاع</string>
+
+    <string name="pleaseselectstartdate"> اختر تاريخ من</string>
+    <string name="pleaseselectenddate"> اختر تاريخ الي</string>
+    <string name="Invalidsearchdata">بيانات البحث غير صحيحة</string>
+    <string name="DateFrommustbehigherthanDato">يجب ان يكون تاريخ من اقدم من تاريخ الي</string>
+    <string name="upg_receipt_Transaction_status_label"> مقبولة</string>
+    <string name="upg_receipt_DateTime_label">التاريخ / الوقت</string>
+    <string name="upg_general_Operation">العملية</string>
+    <string name="salecash">الشراء  - كاش</string>
+    <string name="upg_general_Mobileno">رقم المحمول</string>
+    <string name="upg_receipt_Reference_number_label">رقم المرجع</string>
+    <string name="upg_receipt_transaciton_id_label">الرقم المرجعي UPG  </string>
+    <string name="upg_receipt_Tahweel_transaciton_id_label">الرقم المرجعي ميزة ديجيتال</string>
+
+
+    <string name="upg_general_meeza_digital_merchant_id">رقم التاجر (ميزة ديجيتال)</string>
+
+
+    <string name="upg_general_phone_number">رقم الموبايل</string>
+
+
+    <string name="upg_general_Fee">رسوم</string>
+    <string name="TransactionApprove"> عملية مقبولة</string>
+    <string name="TransactionReject"> عملية مرفوضة</string>
+    <string name="upg_receipt_Send_receipt_btn">إرسال الإيصال</string>
+    <string name="upg_receipt_Sender_Name_label">الإسم</string>
+    <string name="upg_general_cardno">رقم البطاقة</string>
+    <string name="usedfinger">يمكنك استخدام بصمة اصبعك للدخول </string>
+    <string name="pinerror">لايمكن ادخال بمصة الاصبع مره اخري  ادخل كلمة المرور  </string>
+    <string name="upg_passcode_reenter_text">إعاده ادخال رمز التحقق الجديد </string>
+
+    <string name="upg_passcode_wrong_text">كلمة المرور غير صحيح</string>
+    <string name="upg_passcode_correct_text">كلمة المرور صحيح</string>
+
+    <string name="fingernotmatch">بصمة الاصبع غير مطابقة  جرب مرة اخري </string>
+    <!-- Cach -->
+    <string name="upg_general_Confirm">تأكيد</string>
+    <string name="upg_general_More">للمزيد</string>
+
+    <string name="upg_dialog_amount_title"> ادخل المبلغ</string>
+    <string name="upg_general_generate">إنشاء كود الدفع</string>
+
+    <string name="loading">جاري التحميل</string>
+
+    <string name="upg_paylink_item_numberpayment_label">عدد مرات الدفع</string>
+    <string name="upg_general_file">الملف</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="upg_dashboard_terminal_id_label">رقم الجهاز :</string>
+
+
+    <string name="upg_general_available_balance">الرصيد المتاح</string>
+
+
+    <string name="upg_general_Date"> التاريخ:</string>
+    <string name="DateLessToday"> يجب ان يكون التاريخ اكبر من تاريخ اليوم</string>
+
+
+    <string-array name="upg_paylink_filter_statustypes">
+        <item>الحالة - الكل</item>
+        <item>غير مدفوع</item>
+        <item>مدفوع</item>
+        <item>لاغى</item>
+        <item>دفع جزئي</item>
+    </string-array>
+    <string name="upg_paylink_details_NetworkReferenceNumber_label">الرقم المرجعي</string>
+    <string name="AllTerminal">الجهاز - الكل</string>
+
+    <string name="upg_paylink_details_PaymentMethod_label"> نوع الدفع</string>
+    <string name="upg_general_retrieving_data">جاري استرجاع البيانات</string>
+    <string name="upg_dialog_shareLink">مشاركة الرابط</string>
+    <string name="upg_dialog_meeza_digital_id_title">أدخل رقم ميزة ديجيال / رقم المحمول</string>
+    <string name="upg_dialog_meeza_digital_title">رقم ميزة ديجيال / رقم المحمول</string>
+
+    <string name="pay">ادفع الفاتورة</string>
+    <string name="upg_SBC_card_number_hint">رقم البطاقة</string>
+    <string name="upg_SBC_expire_date_hint">تاريخ الانتهاء</string>
+    <string name="upg_general_OrderID">رقم الطلب:</string>
+    <string name="upg_paylink_details_SystemReferenceNumber_label"> الرقم المرجعى</string>
+    <string name="upg_general_Status">الحالة: </string>
+    <string name="upg_paylink_history_Merchant_Reference_label">مرجع التاجر </string>
+
+    <string name="upg_general_Logout">خروج</string>
+
+    <string name="upg_general_Support">الدعم</string>
+    <string name="upg_general_About">عنا</string>
+    <string name="upg_general_Description">الوصف</string>
+    <string name="upg_new_merchant_submit_btn">إرسال</string>
+
+    <string name="upg_support_about_label">
+ تطبيق التاجر. هو تطبيق محمول
+مقدم من شركة البنوك المصرية (EBC)
+كعنصر مكون في دفعة UPG الخاصة به
+بوابة (www.UPGOnline.com) لتمكين التجار
+بدء المدفوعات تلقي الدفع
+  الإخطارات وإدارة المتاجر الخاصة بهم
+و التقارير
+    </string>
+
+    <string name="upg_support_right_Reservation_label">جميع الحقوق محفوظة \u00A9
+شركة البنوك المصرية 2019</string>
+    <string name="upg_general_total">الإجمالي</string>
+    <string name="number_payment_name">اقصي عدد</string>
+    <string name="upg_paylink_item_number_payment_name_label">اقصي عدد مرات دفع</string>
+    <string name="image">صور</string>
+
+    <string name="invalid_phone">رقم المحمول غير صحيح</string>
+    <string name="upg_general_Notification">إشعار</string>
+    <string name="app_password">كلمة مرور التطبيق</string>
+    <string name="no_internet_connectiity">لا يوجد اتصال بالانترنت</string>
+    <string name="upg_paylink_payer_name_label">اسم العميل</string>
+    <string name="upg_paylink_payer_name_hint">  اسم العميل(اختياري)</string>
+    <string name="invalid_mail">بريد الكتروني غير صحيح</string>
+    <string name="m2m">شراء</string>
+
+    <string name="RecieverNumber">رقم المستقبل</string>
+
+    <string name="sale_by_qr">الشراء بالكود خاص</string>
+    <string name="upg_new_merchant_label_mobile_number">رقم المحمول</string>
+
+
+    <string name="upg_dialog_Transactionfilter_mobile_hint">رقم المحمول (01xxxxxxxxx)</string>
+    <string name="transaction_history">سجل المعاملات</string>
+    <string name="QRQenration">إنشاء كود خاص  </string>
+
+
+    <string name="upg_purchase_Comfirmation_title">تاكيد الطلب</string>
+    <string name="mtomComfirmationsucceffuly">تم ارسال طلب الشراء بنجاح</string>
+
+    <string name="transaction">المعاملة</string>
+
+    <string name="upg_general_scan">إفحص</string>
+    <string name="scan_note">إفحص كود التاجر للدفع </string>
+
+    <string name="upg_paylink_transaction_number_label">الرقم المرجعى</string>
+    <string name="upg_Notifications_title">الاشعارات</string>
+    <string name="UPGTID">" نقطة البيع :  "</string>
+    <string name="upg_sale_by_QR_MerchantName_label">اسم التاجر</string>
+    <string name="upg_sale_by_QR_title_label"> افحص  الكود الخاص</string>
+
+
+    <string name="yallavpos_sale_by_QR_title_label">افحص  الكود الخاص</string>
+
+    <string name="upg_sale_by_QR_paymen_request_btn">طلب الدفع</string>
+    <string name="upg_general_enterfileds"> ادخل الحقول الاتية</string>
+
+    <string name="upg_sale_by_QR_DynamicQR_btn">إنشاء كود خاص </string>
+
+    <string name="forgetpassmessage">تم ارسال طلب دعم الي خدمة عملاء باى سكاي برجاء الاتصال بهم للتحقق من الطلب\n  رقم التذكر ة %s</string>
+
+    <string name="upg_general_Help">مساعدة</string>
+
+
+    <string name="upg_general_waiting_comfirm">"بانتظار الموافقة"</string>
+
+
+    <string name="upg_sale_by_QR_paymen_request_label">لا يمكنك قراءة  كلمة المرور الخاص؟
+إرسال طلب الدفع إلى رقم هاتف العميل.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="account_service">خدمات الحساب</string>
+    <string name="gpsAsk">محدد الموقع لايعمل ٫ هل تود تشعيل محدد الموقع ؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="upg_paylink_order_Type_label">نوع الطلب</string>
+    <string name="upg_dashboard_conv_fees_label">رسوم الخدمة</string>
+
+    <string name="upg_general_Details">التفاصيل</string>
+    <string name="upg_general_Search">البحث</string>
+    <string name="upg_general_All">الكل</string>
+    <string name="ToRefund"> (استرجاع مال) الى :</string>
+    <string name="FromSale">"(بيع) من:"</string>
+    <string name="TrxID">رقم العملية </string>
+    <string name="TrxnType">نوع المعاملة</string>
+    <string name="Time">الوقت</string>
+    <string name="Ref">مرجع #</string>
+    <string name="SalesFees">"الإجمالي: "</string>
+
+    <string name="AmountEGP">"المبلغ: "</string>
+    <string name="Pleaseselectservicetype">يرجى اختيار نوع الخدمة</string>
+    <string name="Notification">" الاشعارات "</string>
+    <string name="transactions">المعاملات</string>
+    <string name="upg_general_capture">تأكيد </string>
+    <string name="capturedetail"> ادخل تفاصيل المعاملة</string>
+
+    <string name="upg_general_Cash">"نقدي: "</string>
+    <string name="upg_dialog_app_pass_title"> ادخل كلمة مرور الادمن</string>
+    <string name="app_pass_setting_erro">كلمة المرور غير صحيحة</string>
+    <string name="upg_general_card">بطاقة: </string>
+    <string name="upg_general_mVisa">فيزا: </string>
+    <string name="upg_general_Tahweel">ميزةديجيتال: </string>
+    <string name="Thanksforusingourapplication">شكرا لاستخدامك تطبيق UPG</string>
+    <string name="app_ip"> ادخل عنوان الموقع</string>
+    <string name="upg_general_TerminalWithoutDot">"نقطة البيع"</string>
+
+
+    <string name="upg_general_request">طلب</string>
+
+    <string name="upg_dialog_refund_card_DateExpiration_hint">تاريخ الانتهاء (شهر / سنة)</string>
+    <string name="CVV2">كود التحقق</string>
+
+    <string name="upg_general_provide_by">مقدم بواسطة EBC</string>
+    <string name="finishedfingerprint">لقد انتهت محاولات بصمة الاصابع  ادخل كلمة المرور</string>
+
+    <string name="supoortticket">
+        تم إنشاء تذكرة دعم فني بنجاح
+                               \n تذكرة رقم # :-  %s
+                               \n  للمتابعة اتصل برقم 20225476155+
+    </string>
+
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eghit">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="zerozero">00</string>
+
+    <string name="upg_general_services">الخدمات</string>
+    <string name="notAvalible">الخدمة غير متاحة الان</string>
+    <string name="upg_SBC_card_data_title">تحقق من ادخال بيانات البطاقة</string>
+    <string name="upg_general_meeza_digital_id">رقم ميزة ديجيتال</string>
+
+
+    <string name="upg_general_Expiration">تاريخ الانتهاء</string>
+    <string name="upg_paylink_expiration_date_hint"> تاريخ الانتهاء (اختياري)</string>
+
+    <string name="upg_SBC_select_terminal_title"> اختر الجهاز </string>
+
+    <string name="upg_paylink_transaction_number_hint">الرقم المرجعى (اختياري)</string>
+    <string name="upg_sale_by_cash_title_label">الشراء نقدي</string>
+
+    <string name="upg_SBC_card_holder_hint">اسم صاحب البطاقة</string>
+    <string name="upg_SBC_cvc_hint">الرمز السرى</string>
+    <string name="upg_general_pay">دفع</string>
+    <string name="invalid_card_number_length">رقم البطاقة غير صحيح</string>
+    <string name="enter_valid_owner">ادخل اسم صاحب البطاقة</string>
+    <string name="invalid_expire_date">تاريخ الانتهاء يجب الا يزيد عن اربع ارقام</string>
+    <string name="invalid_ccv">كود الحماية يجب ان يكون 3 ارقام.</string>
+    <string name="invalid_expire_date_date">تاريخ الانتهاء غير صحيح.</string>
+    <string name="error_try_again">خطأ فى الخادم,حاول مره أخرى.</string>
+    <string name="sale_by_manual">الشراء بالبطاقة</string>
+
+    <string name="upg_general_history"><u>الطلبات السابقة</u></string>
+    <string name="upg_general_check_fees">فحص الرسوم</string>
+    <string name="upg_general_required">مطلوب</string>
+    <string name="mutiplay">يجب ان يكون الرقم من مضاعفات رقم ٥٠ </string>
+    <string name="upg_general_required_field">إجباري</string>
+    <string name="error_in_server">مشكلة في الاتصال</string>
+    <string name="upg_general_device_rooted_message">الجهاز فى وضع الرووت</string>
+    <string name="service_not_available">الخدمه غير متاحه</string>
+    <string name="enter_amount">برجاء ادخال المبلغ</string>
+    <string name="select_severity">يرجى تحديد درجة الخطورة</string>
+
+    <string name="date_error">بيانات غير صحيحة</string>
+    <string name="invalid_lenght">طول الرقم غير صحيح</string>
+
+
+    <string name="MerchantID"> رقم التاجر:  </string>
+    <string name="MerchantIDWithOutDot">رقم التاجر</string>
+
+    <string name="upg_receipt_Merchant_ID_label">رقم التاجر</string>
+    <string name="upg_receipt_MTIN_label">الرقم الضريبي - تاجر</string>
+    <string name="upg_receipt_VAT_label">ضربية القيمة المضافة</string>
+    <string name="upg_receipt_Transaction_ID_label">رقم الجاهز</string>
+    <string name="upg_receipt_CTIN_label"> الرقم الضريبي - مستهلك </string>
+    <string name="upg_receipt_TRN_label">الرقم الضريبي</string>
+
+    <string name="upg_sale_by_cash_reciept_number_label">رقم الايصال </string>
+    <string name="upg_sale_by_cash_customer_TIN_label">الرقم الضريبي للمستهلك </string>
+
+
+    <string name="upg_general_optional"> اختياري  </string>
+
+    <string name="upg_new_merchant_attachment_label"> إرفع الملفات</string>
+
+    <string name="upg_general_choose">إختر</string>
+
+    <string name="upg_new_merchant_full_name">الإسم بالكامل</string>
+    <string name="upg_new_merchant_label_address">العنوان</string>
+
+    <string name="upg_new_merchant_label_country">الدولة</string>
+    <string name="upg_new_merchant_business_name_label">اسم النشاط</string>
+    <string name="upg_new_merchant_business_category_label">تصنيف النشاط</string>
+    <string name="upg_new_merchant_website_label">الموقع الالكتروني</string>
+    <string name="upg_new_merchant_notes_label">ملاحظات</string>
+    <string name="upg_login_open_merchant_account_label"> جديد ؟ فتح حساب تاجر  </string>
+    <string name="upg_new_merchant_open_account"> حساب تاجر جديد  </string>
+    <string name="upg_general_chooseCountry">اختر الدولة</string>
+    <string name="addAccountComplete">شكراً ، سوف يتصل بك أحد مستشاريين الخدمة قريباً </string>
+    <string name="pleasechooseCountry"> اختر الدولة </string>
+    <string name="upg_dialog_attachment_tax_registration_label">السجل الضريبي</string>
+
+
+    <string name="upg_dialog_attachment_commercial_registration_label">السجل التجاري</string>
+    <string name="upg_dialog_attachment_id_document_label">البطاقة الشخصية</string>
+    <string name="upg_dialog_attachment_store_photo_label">صورة المتجر</string>
+    <string name="upg_new_merchant_select_documents_btn">إختر الملفات</string>
+    <string name="upg_general_other">إخري</string>
+    <string name="upg_general_done">تم</string>
+    <string name="upg_location_hint"> إبحث عن العنوان هنا</string>
+    <string name="location_picked_search_hint">تم اختيار العنوان, ابحث عن أخر هنا</string>
+    <string name="selected_location">الموقع المختار</string>
+    <string name="location_not_detected"> لا نستطيع تحديد موقعك الجغرافي</string>
+    <string name="cant_get_location">لا نستطيع تحديد موقعك </string>
+    <string name="location_not_detected_press_back">لا يمكن تحديد الموقع</string>
+    <string name="upg_general_balance">الرصيد</string>
+
+    <string name="upg_paylink_select_merchant_type_hint">Please select merchant type</string>
+
+
+    <string-array name="pay_link_type">
+        <item>دفع مرة واحدة</item>
+        <item>دفع متكرر</item>
+    </string-array>
+
+
+    <string name="tv_noNfc">لايوجد NFC في هذا الجهاز</string>
+    <string name="tv_tapYourCard">يرجى وضع بطاقتك على اللوحة الخلفية للهاتف</string>
+    <string name="ad_progressBar_mess">يرجى عدم إزالة أو نقل البطاقة أثناء القراءة.</string>
+    <string name="snack_doNotMoveCard">يرجى عدم نقل البطاقة ، حاول مرة أخرى!</string>
+    <string name="snack_unknownEmv">بطاقة EMV غير معروفة</string>
+    <string name="snack_lockedNfcCard"> NFC مقفل على هذه البطاقة.</string>
+    <string name="ad_nfcTurnOn_title">تم إيقاف تشغيل NFC.</string>
+    <string name="ad_nfcTurnOn_message">تحتاج إلى تشغيل وحدة NFC للمسح الضوئي. أتمنى تشغيله الآن؟</string>
+    <string name="ad_nfcTurnOn_pos">شغله</string>
+    <string name="ad_nfcTurnOn_neg">رفض</string>
+    <string name="upg_general_trading">Trading …</string>
+    <string name="upg_paylink_select_order_type_hint">Please select merchant type</string>
+    <string name="upg_dialog_to_account_number_label">To account number</string>
+
+    <string name="upg_support_contact_label">For Support and customer service please contact</string>
+    <string name="upg_support_open_service_request_label">Open service request</string>
+    <string name="upg_dialog_From_account_number_label">From account number</string>
+    <string name="upg_dialog_keyboard_online_pin_label">online pin</string>
+    <string name="upg_general_delete">Delete</string>
+    <string name="upg_general_clear">Clear</string>
+    <string name="upg_general_password">كلمة المرور</string>
+    <string name="upg_print_reciept_Termina_Id_label">Terminal I.D. :</string>
+    <string name="upg_print_reciept_merchant_label">Merchant #:</string>
+    <string name="upg_general_batch">Batch:</string>
+    <string name="upg_general_receipt_dot">Receipt #</string>
+    <string name="upg_general_stan">STAN:</string>
+    <string name="upg_general_rrn">RRn:</string>
+    <string name="upg_general_auth_no">Auth.no :</string>
+    <string name="upg_general_total_dot">TOTAL :</string>
+    <string name="upg_general_print_type_label">Merchant Copy</string>
+
+    <string name="upg_print_reciept_expiry_date_label">Expiry Date :</string>
+    <string name="upg_print_reciept_Offline_Sale_label">Offline Sale</string>
+    <string name="upg_print_reciept_application_label">Application :</string>
+    <string name="upg_print_reciept_application_id_label">Application ID:</string>
+    <string name="upg_receipt_Tahweel_transaciton_merchant_id_label">رقم التاجر</string>
+    <string name="upg_manual_m2m_btn">Manual M2M</string>
+    <string name="upg_general_app_version">إصدار</string>
+    <string name="upg_help_open_support_ticket"> أرسل تذكرة دعم</string>
+    <string name="upg_help_frequently_asked_questions">أسئلة متكررة</string>
+    <string name="upg_open_support_ticket">Open Support Ticket</string>
+    <string name="upg_general_comment">Comment</string>
+    <string name="please_select_merchant_type">Please select merchant type</string>
+    <string name="adcb_general_help_videos">فيديوهات مساعدة</string>
+    <string name="adcb_choose_email_sender_title">إرسال بريد إليكترونى بواسطة</string>
+    <string name="adcb_general_more_videos">المزيد من الفيديوهات</string>
+    <string name="adcb_send_receipt_by">إرسل الفاتورة</string>
+    <string name="adcb_how_to_make_sale_transaction">كيفية إنشاء معاملة بإستخدام البطاقة</string>
+    <string name="adcb_how_to_create_pay_link">كيفية إنشاء رابط للدفع</string>
+    <string name="vpos_splash_partenership_title">بالإشتراك مع فيزا</string>
+    <string name="vpos_login_username_hint">إسم الدخول</string>
+    <string name="vpos_login_password_hint">كلمة المرور</string>
+
+    <string name="vpos_change_password_old_password_hint">كود التحقق القديم</string>
+    <string name="vpos_change_password_new_password_hint">كود التحقق الجديد</string>
+    <string name="vpos_change_password_reneter_new_password_hint">إعادة ادخال كود التحقق الجديد</string>
+    <string name="pay_by_card_nfc">الدفع بإستخدام NFC</string>
+    <string name="amount">المبلغ</string>
+    <string name="egp">جنيه</string>
+    <string name="adcb_faq_how_to_make_sale_transaction">س: كيفية إجراء معاملة بيع باستخدام البطاقة؟</string>
+    <string name="adcb_faq_answer_to_make_sale_transaction">افتح تطبيق ADCB Pace Pay  ، وانتقل إلى علامة التبويب "الدفع" ، ثم انقر فوق " الشراء بالبطاقة"</string>
+    <string name="upg_general_faq_list">FAQ List</string>
+    <string name="upg_receipt_original_trx_id_label">الرقم المرجعى الأساسى</string>
+    <string name="upg_paylink_message">الرسالة</string>
+    <string name="upg_paylink_message_hint">اكتب رسالتك (إختيارى)</string>
+    <string name="upg_general_your_link">Your Link</string>
+    <string name="upg_generalshare_by_your_link"> مشاركة بواسطة</string>
+    <string name="upg_dialog_social_media">وسائل التواصل</string>
+    <string name="upg_general_completed">تمت</string>
+
+
+    <string name="upg_general_upg_merchant_id">رقم التاجر</string>
+    <string name="upg_general_upg_terminal_id">Terminal ID</string>
+
+    <string name="adcb_powered_by_support">بواسطة:</string>
+
+
+    <string name="adcb_support_about_label">
+                تطبيق ماكينة البيع الافتراضية من
+بوابة مدفوعات بنك أبوظبى التجارى
+        هو منتج يسمح للتجار بقبول المدفوعات
+        وعرض تقارير المعاملات من خلال
+        استخدام هواتفهم المحمولة .
+    </string>
+
+
+    <string name="adcb_in_partnership_with">بالشراكة مع:</string>
+    <string name="upg_general_new"> جديد؟</string>
+    <string name="upg_general_ok">تم</string>
+    <string name="no_services_are_currently_available">No services are currently available</string>
+    <string name="add_another_service">Add Another Service?</string>
+    <string name="are_you_sure_you_want_to_add_another_service">Are you sure you want to add another service</string>
+
+    <string name="upg_general_qr_link_title">QR رابط</string>
+    <string name="upg_general_FAQs">FAQs</string>
+    <string name="upg_general_password_reset">إعادة تعيين كلمة المرور</string>
+    <string name="upg_general_password_reset_fill_text">يرجى ملىء البيانات أدناه لإعادة تعيين كلمة المرور الخاصة بك</string>
+    <string name="upg_general_paylink_history">PayLink History</string>
+    <string name="upg_general_pay_by_card_title">الدفع عن طريق البطاقة</string>
+    <string name="upg_general_pay_by_link_title">الدفع عن طريق الرابط</string>
+    <string name="upg_general_history_title">History</string>
+    <string name="upg_dialog_completed_link_sent">تم إرسال الرابط بنجاح</string>
+    <string name="upg_general_password_reset_successfully_check_email">Password reset request was sent successfully, Please check your Email</string>
+    <string name="upg_general_password_reset_successfully_check_phone">Password reset request was sent successfully, Please check your Phone</string>
+    <string name="upg_general_password_reset_successfully_check_email_phone">Password reset request was sent successfully, Please check your email or phone</string>
+
+
+    <string name="adcb_faq_send_paymnet_paylink">س: كيف يمكنني إرسال رابط دفع (الدفع عن طريق الرابط) إلى عميل لتحصيل الدفع؟</string>
+
+    <string name="adcb_faq_answer_send_paymnet_paylink">
+ لإرسال طلب رابط دفع للعميل:
+- انتقل إلى علامة التبويب "الخدمات" ، وانقر على "إنشاء طلب دفع"
+- املأ النموذج بتفاصيل الدافع وانقر على زر "إنشاء"
+- اختر طريقة مشاركة الرابط (البريد الإلكتروني أو الرسائل القصيرة أو الوسائط الاجتماعية)
+        - أدخل عنوان البريد الإلكتروني أو رقم الجوال الخاص بالدافع (مع رمز البلد مثل +971) أو وسائل التواصل الاجتماعي ، كما هو محدد.
+- سيتلقى الدافع إشعارًا مع طلب الدفع ، مع رابط لفتح وإدخال بيانات بطاقاته / ها لإجراء الدفع.
+- بمجرد اكتمال الدفع ، ستتلقى إشعارًا بأن المعاملة قد تم دفعها ، يمكنك دائمًا عرض حالة جميع روابط الدفع المرسلة في قسم "السجل" في الجزء السفلي من طريقة عرض "إنشاء طلب دفع".
+يمكنك أيضًا مشاهدة الفيديو على: https://youtu.be/nIMHC7Ew1H0 لمزيد من التفاصيل
+    </string>
+
+
+    <string name="adcb_faq_how_can_share_payment_link">س: كيف يمكنني مشاركة رابط الدفع مع عملائي؟</string>
+    <string name="adcb_faq_answer_how_can_share_payment_link">يمكنك مشاركة رابط الدفع باستخدام البريد الإلكتروني أو الرسائل القصيرة (يرجى إضافة رمز البلد على سبيل المثال + 971) أو أي وسائط اجتماعية قمت بتثبيتها على جهازك.</string>
+
+
+    <string name="adcb_faq_when_payment_link_expires">س: متى تنتهي صلاحية رابط الدفع؟</string>
+    <string name="adcb_answer_faq_when_payment_link_expires">تنتهي صلاحية رابط الدفع خلال 24 ساعة من وقت إرسال الرابط.</string>
+
+
+    <string name="adcb_faq_how_do_you_get_cutomer_support">س: كيف تحصل على دعم العملاء؟</string>
+    <string name="adcb_answer_faq_how_do_you_get_cutomer_support">To get customer support, you can submit your question in the support section below or write to: adcbpacepay@adcbmerchantservices.com &amp; quote the Merchant ID mentioned in daily settlement report/statement received &amp; NOT the ID mentioned on the mobile app.</string>
+
+
+    <string name="adcb_faq_keep_application_logged_in">س: كيف تحافظ على تسجيل دخول التطبيق؟</string>
+    <string name="adcb_answer_faq_keep_application_logged_in">إذا تم قفل الهاتف ، فسوف يقوم التطبيق بتسجيل الخروج تلقائيًا. ستحتاج إلى تسجيل الدخول مرة أخرى باستخدام بيانات الاعتماد الكاملة. لتجربة سلسة ، يمكنك استخدام خيار "تذكرني" أثناء تسجيل الدخول إلى التطبيق. سيضمن ذلك تسجيل الدخول مرة أخرى إلى التطبيق بكلمة المرور الخاصة بك فقط</string>
+
+
+    <string name="adcb_faq_default_logout_time">س: ما هو وقت تسجيل الخروج الافتراضي للتطبيق؟</string>
+    <string name="adcb_faq_answer_default_logout_time"> ٣٠ دقيقة</string>
+
+
+    <string name="adcb_faq_attempts_for_incorrect_login">س: كم عدد المحاولات المسموح بها لتسجيل الدخول غير الصحيح في التطبيق؟</string>
+    <string name="adcb_faq_answer_attempts_for_incorrect_login">٦ محاولات</string>
+
+    <string name="adcb_faq_how_to_reset_password">س: كيف يمكنني إعادة تعيين كلمة المرور الخاصة بي؟</string>
+    <string name="adcb_faq_answer_how_to_reset_password">في شاشة تسجيل الدخول ، اضغط على "نسيت كلمة المرور" ، وأدخل اسم المستخدم والبريد الإلكتروني واضغط على إرسال ،
+     ستتلقى بعد ذلك إشعارًا بالبريد الإلكتروني بكلمة المرور الجديدة.</string>
+
+    <string name="adcb_faq_how_to_generate_receipt">س: كيفية إنشاء إيصال عندما يطلب العميل؟</string>
+
+
+    <string name="adcb_faq_answer_how_to_generate_receipt">كجزء من المعاملة الناجحة ، سيتم إنشاء إيصال ومشاركته مع معرف البريد الإلكتروني أو الجوال المذكور أيهما كان مقدمًا. في حالة وجود إيصال مكرر يطلبه العميل ، يمكن للتاجر تجديد الإيصال من لوحة التحكم.
+
+    -  أذهب إلى ملخص العمليات
+
+    - انقر فوق مزيد من التفاصيل ، حدد تاريخ إجراء المعاملة في فلاتر البحث. أثناء تحديد التاريخ ، يمكن أيضًا توفير رقم إيصال المعاملة في حقل مرجع الشبكة. # للمعاملة الدقيقة
+
+    - انقر فوق المعاملة التي تريد إعادة إنشاء الإيصال.
+
+    - انقر فوق الزر "إرسال إيصال"
+
+    - أدخل معرف البريد الإلكتروني أو رقم الهاتف المحمول (جنبًا إلى جنب مع رمز البلد مثل +971) وانقر على زر الإرسال. سيتم إرسال الإيصال إلى معرف البريد الإلكتروني المذكور أو رقم الهاتف المحمول
+    </string>
+
+
+    <string name="adcb_faq_cancel_refunt_transaction">س: كيف يمكنني إلغاء أو استرداد المعاملة؟</string>
+
+    <string name="adcb_faq_answer_cancel_refunt_transaction">لإلغاء أو استرددا المعاملة:
+
+- إذهب إلى ملخص العمليات
+
+- انقر فوق مزيد من التفاصيل ،حدد تاريخ إجراء المعاملة في فلاتر البحث.
+        أثناء تحديد التاريخ ، يمكن أيضًا توفير رقم إيصال المعاملة في حقل مرجع الشبكة. # للمعاملة الدقيق
+
+- انقر فوق المعاملة التي تريد استردادها
+
+- أدخل رمز PIN الخاص بتسجيل الدخول لتأكيد استرداد الأموال
+
+- أدخل المبلغ الذي تريد استرداده ، انقر فوق التالي.
+    </string>
+
+    <string name="adcb_email_support"><a href="mailto:adcbpacepay@adcbmerchantservices.com">adcbpacepay@adcbmerchantservices.com</a></string>
+
+    <string name="adcb_general_email_title">الإيميل</string>
+    <string name="adcb_general_sms_title">رسالة نصية</string>
+
+
+    <string name="adcb_faq_what_is_pace_pay">Q: What is Pace Pay?</string>
+    <string name="adcb_answer_faq_what_is_pace_pay">Pace Pay from ADCB (Powered by PaySky in partnership with Visa) is the region\'s first Virtual POS solution, enabling merchants to accept payments by just using their mobile phones, Anytime, Anywhere!</string>
+    <string name="upg_general_title_pay_by_cash">الدفع نقدى</string>
+    <string name="upg_general_answer_letter">ج: </string>
+    <string name="upg_general_please_show_qr_link">يرجى إظهار رابط QR للعميل</string>
+    <string name="survey">إستبيان</string>
+    <string name="upg_general_filter">بحث</string>
+
+
+</resources>

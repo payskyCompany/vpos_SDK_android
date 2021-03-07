@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:textColor="@color/primaryBlue"
+                android:id="@+id/CountDown"
+                android:text="30"
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:lottie_autoPlay="true"
+                android:textColor="@color/primaryBlue"
+                app:lottie_colorFilter="@color/primaryBlue"
+                app:lottie_fileName="lottie/connecting_circle.json"
+                app:lottie_loop="true" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:textColor="@color/primaryBlue"
+            android:id="@+id/ProgressImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp" />
+
+
+        <TextView
+            android:id="@+id/TextLoadding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/upg_retrieving_transactions_message" />
+    </LinearLayout>
+
+</RelativeLayout>

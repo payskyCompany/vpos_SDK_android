@@ -1,0 +1,482 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_210sdp">
+
+        <LinearLayout
+            android:id="@+id/contentPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_4sdp">
+
+            <LinearLayout
+                android:id="@+id/balanceLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:text="@string/upg_general_balance" />
+
+
+                <TextView
+                    android:id="@+id/balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:textAppearance="@style/TextViewCustomFont"
+                    tools:text="EGP 00.00" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/dateSelector"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_28sdp"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:background="@drawable/white_bg_with_small_redius"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_margin="@dimen/_8sdp"
+                            android:src="@drawable/bluecelender" />
+
+                        <TextView
+
+
+                            android:id="@+id/ResultFrom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_8sdp"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:text=""
+
+                            android:textColor="@color/dashboardtext" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+
+                            android:layout_height="@dimen/_15sdp"
+                            android:scaleX="@integer/one"
+                            android:src="@drawable/arrow_celender" />
+
+                        <TextView
+                            android:id="@+id/ResultTo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_8sdp"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:text=" "
+                            android:textColor="@color/dashboardtext" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:scaleX="@integer/one"
+                            android:src="@drawable/editcelender" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:background="@drawable/white_bg_with_small_redius"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_8sdp"
+
+
+                        >
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:src="@drawable/totalsales" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/TextViewCustomFont"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:text="@string/upg_dashboard_TotalSales_label"
+                                android:textColor="@color/dashboardtext"
+
+                                android:textSize="@dimen/_14ssp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/ResultTerminalid"
+
+                                style="@style/TextViewCustomFont"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:text="@string/upg_dashboard_terminal_id_label"
+                                android:textColor="@color/dashboardtext" />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_total"
+                                style="@style/TextViewCustomFont"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:textColor="@color/dashboardtext"
+                                tools:text="sdfsdfsfsfdsdfsdf"
+                                android:textSize="@dimen/_14ssp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_trans"
+                                style="@style/TextViewCustomFont"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:text="@string/upg_dashboard_transaction_count_label"
+                                android:textColor="@color/dashboardtext" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:background="@drawable/white_bg_with_small_redius"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_8sdp"
+                        android:visibility="gone"
+                        tools:visibility="visible"
+
+
+                        >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/totaltips" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                style="@style/TextViewCustomFont"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+
+                                android:text="@string/upg_dashboard_Total_Tips_label"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_total_tip"
+
+                                style="@style/TextViewCustomFont"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/filter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/_3sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_8sdp"
+                                android:text="@string/upg_general_Search" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:src="@drawable/filter" />
+
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:id="@+id/ln_details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/_3sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:text="@string/upg_general_Details" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:scaleX="@integer/one"
+                                android:src="@drawable/icon_right" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:background="@color/darkBlue" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:id="@+id/CardLL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <View
+                                android:id="@+id/cardLLView"
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_4sdp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/card" />
+
+                            <TextView
+                                android:id="@+id/CardTrans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:gravity="center_vertical"
+                                android:text="@string/upg_general_card"
+                                android:textSize="@dimen/_10ssp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/WalletTransLL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+
+                            <View
+                                android:id="@+id/walletView"
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_4sdp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/yellow" />
+
+                            <TextView
+                                android:id="@+id/WalletTrans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:gravity="center_vertical"
+                                android:text="@string/upg_general_Tahweel"
+                                android:textSize="@dimen/_8ssp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/mVisaTransLL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <View
+                                android:id="@+id/mVisaView"
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_4sdp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/Light_blue" />
+
+                            <TextView
+                                android:id="@+id/mVisaTrans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:gravity="center_vertical"
+                                android:text="@string/upg_general_mVisa"
+                                android:textSize="@dimen/_10ssp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/CashLL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <View
+                                android:id="@+id/cashView"
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_4sdp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/gray" />
+
+                            <TextView
+                                android:id="@+id/CashTrans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:gravity="center_vertical"
+                                android:text="@string/upg_general_Cash"
+                                android:textSize="@dimen/_10ssp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/disputeLL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            tools:visibility="visible">
+
+                            <View
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_4sdp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/dispute" />
+
+                            <TextView
+                                android:id="@+id/disputeTrans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:gravity="center_vertical"
+                                android:text="@string/upg_general_dispute"
+                                android:textSize="@dimen/_10ssp" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swiperefresh"
+        android:minHeight="@dimen/_170sdp">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/line_charts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/_170sdp" />
+    </ScrollView>
+
+</RelativeLayout>

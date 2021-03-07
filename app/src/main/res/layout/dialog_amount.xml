@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:gravity="center"
+        android:text="@string/upg_dialog_amount_title"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@color/gray" />
+
+
+    <LinearLayout
+        android:id="@+id/LLAmount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d40"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:background="@drawable/blue_bg_with_redius"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_amount_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/d40"
+            android:layout_marginStart="@dimen/d10"
+            android:gravity="center"
+            android:text="@string/upg_general_Amountdot" />
+
+        <faranjit.currency.edittext.CurrencyEditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d40"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="0.00"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:layoutDirection="ltr"
+            android:maxLength="10"
+            android:nextFocusDown="@+id/message"
+            android:nextFocusForward="@id/message"
+            android:padding="5dp"
+            android:paddingStart="@dimen/d20"
+            android:paddingEnd="@dimen/d20"
+            android:singleLine="true"
+            android:text="0.00"
+            style="@style/EditStyle"
+            app:locale="en_US"
+            app:showSymbol="false" />
+
+        <TextView
+            android:id="@+id/ProfileCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/d40"
+            android:layout_marginStart="@dimen/d10"
+            android:layout_marginEnd="@dimen/d10"
+            android:gravity="center"
+            android:textColor="@color/popupFieldsColor" />
+
+        <ImageView
+            android:id="@+id/iv_icon_amount"
+            android:layout_width="@dimen/d30"
+            android:layout_height="@dimen/d20"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_coins" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="vertical"
+        tools:visibility="visible"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="From account number"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1000123456" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="To account number"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1000123456"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Amount"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EGP 1200"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp">
+
+        <LinearLayout
+            android:id="@+id/confirmBtn"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@drawable/green_with_redius"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:src="@drawable/correctwhite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upg_general_Confirm"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@drawable/white_blue_radius_background"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:src="@drawable/wrong"
+                android:tint="@color/lightBlue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upg_general_cancel"
+                android:textColor="@color/lightBlue" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

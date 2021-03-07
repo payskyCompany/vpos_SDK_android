@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="one">1</integer>
+    <integer name="visableEBC">1</integer>
+    <integer name="bottom_transactions_visibility">0</integer>
+    <integer name="bottom_services_visibility">2</integer>
+    <integer name="visableBankLogo">0</integer>
+    <integer name="backgrounddegree">90</integer>
+    <integer name="bottom_qr_visibility">2</integer>
+    <integer name="forget_password_visibility">2</integer>
+    <integer name="powerbyImage">2</integer>
+
+    <integer name="meeza_branding">0</integer>
+
+    <integer name="powerbyText">1</integer>
+    <integer name="bank_logo_after_splash">0</integer>
+
+</resources>

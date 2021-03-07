@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hedertitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:gravity="center"
+        android:text="@string/upg_dialog_refund_card_title_label"
+        android:textColor="@color/colorPrimary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/card_holderLL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:background="@drawable/edit_text_drawable2"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:src="@drawable/reson"
+            android:tint="#1777B9" />
+
+        <EditText
+            android:id="@+id/card_holder"
+            style="@style/EditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/upg_SBC_card_holder_hint"
+            android:textColor="@color/colorGreyEditText"
+            android:textColorHint="@color/colorGreyEditText"
+            android:textSize="@dimen/_12ssp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LLPAN"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:background="@drawable/edit_text_drawable2"
+        android:paddingEnd="@dimen/_12sdp">
+
+
+        <ImageView
+            android:id="@+id/iv_username"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:src="@drawable/username"
+            android:tint="#1777B9" />
+
+
+        <com.alihafizji.library.CreditCardEditText
+            android:id="@+id/PAN"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="start|center_vertical"
+            android:hint="@string/upg_SBC_card_number_hint"
+            android:inputType="textNoSuggestions"
+            android:maxLength="19"
+            android:paddingStart="@dimen/d20"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorGreyEditText"
+            android:textColorHint="@color/colorGreyEditText"
+            android:textSize="@dimen/_12ssp"
+            android:drawableTint="#1777B9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/DELL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/edit_text_drawable2">
+
+        <ImageView
+            android:id="@+id/iv_calendar_visa"
+
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:src="@drawable/celender_visa"
+            android:tint="#1777B9" />
+
+
+        <com.paysky.upg.customviews.ExpiryDate
+            android:id="@+id/DateExpiration"
+            style="@style/EditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/upg_dialog_refund_card_DateExpiration_hint"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:nextFocusDown="@+id/CVV"
+            android:paddingStart="@dimen/_8sdp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorGreyEditText"
+            android:textColorHint="@color/colorGreyEditText"
+            android:textSize="@dimen/_12ssp"
+            tools:text="sdfsfsdfsdf" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLCCV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+
+        android:background="@drawable/edit_text_drawable2">
+
+
+        <ImageView
+            android:id="@+id/iv_visa"
+
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:src="@drawable/password"
+            android:tint="#1777B9" />
+
+        <EditText
+            android:id="@+id/CVV2"
+            style="@style/EditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/upg_SBC_cvc_hint"
+            android:inputType="numberPassword"
+            android:maxLength="3"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorGreyEditText"
+            android:textColorHint="@color/colorGreyEditText"
+            android:textSize="@dimen/_12ssp"
+            tools:text="sdfsdfsddfsdf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+
+                android:background="@drawable/edit_text_drawable2">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:src="@drawable/reson" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="@string/upg_receipt_Refund_Reason_label"
+
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+
+                android:background="@drawable/edit_text_drawable2">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:src="@drawable/reson" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="@string/upg_receipt_Refund_Reason_label"
+
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintColor" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+
+                android:background="@drawable/edit_text_drawable2">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:src="@drawable/reson" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="@string/upg_receipt_Refund_Reason_label"
+
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintColor" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+
+            android:background="@drawable/edit_text_drawable2">
+
+            <ImageView
+                android:id="@+id/iv_amount"
+
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:src="@drawable/amount"
+                android:tint="#1777B9" />
+
+            <faranjit.currency.edittext.CurrencyEditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="0.00"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:text="0.00"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorGreyEditText"
+                android:textColorHint="@color/colorGreyEditText"
+                android:textSize="@dimen/_12ssp"
+                app:locale="en_US"
+                app:showSymbol="false" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/refundResonLL"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/edit_text_drawable2">
+
+            <ImageView
+                android:id="@+id/iv_reason"
+
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:src="@drawable/reson"
+                android:tint="#1777B9" />
+
+            <EditText
+                android:id="@+id/refundReson"
+                style="@style/EditStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/upg_receipt_Refund_Reason_label"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorGreyEditText"
+                android:textColorHint="@color/colorGreyEditText"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/edit_text_drawable2"
+
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_password"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:src="@drawable/password"
+                android:tint="#1777B9" />
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/EditStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="Password"
+                android:imeActionLabel="@string/upg_general_login"
+                android:imeOptions="actionDone"
+                android:inputType="numberPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorGreyEditText"
+                android:textColorHint="@color/colorGreyEditText"
+                tools:text="sdfsfsdfsfdsdf" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp">
+
+
+        <LinearLayout
+            android:id="@+id/login"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_login_background"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:src="@drawable/correctwhite" />
+
+            <TextView
+                android:id="@+id/refundLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upg_general_Refund"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@drawable/white_blue_radius_background"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:src="@drawable/wrong"
+                android:tint="#1777B9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upg_general_Close"
+                android:textColor="#1777B9" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

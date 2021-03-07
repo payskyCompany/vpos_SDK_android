@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2D0A58</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="support_tab_drawable_background_color">#ffffff</color>
+    <color name="hintColor">#5dffffff</color>
+    <color name="alfawhite">#32FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="fingerPrintColor">@color/selectedtab</color>
+
+    <color name="colorNotificationIconTint">#EEA005</color>
+
+    <color name="silver">#353F47</color>
+
+
+    <color name="receiptTextColor">#3F51B5</color>
+
+
+    <color name="textColor">@color/white</color>
+
+    <color name="spinnerItemTextColor">@color/white</color>
+
+    <color name="dashboardLine">@color/white</color>
+
+    <color name="mainDashboardColor">#F2F2F2</color>
+
+    <color name="selectedtab">@color/darkblue</color>
+    <color name="unselectedtab">@color/white</color>
+
+
+    <color name="tintColor">@color/white</color>
+    <color name="Currency">@color/white</color>
+
+    <!--    <color name="noti_tint_color">@color/white</color>-->
+
+    <color name="backgroundcolor">#EFEFEF</color>
+
+
+    <color name="primaryBlue">#1777B9</color>
+
+
+    <color name="selectedicontab">@color/white</color>
+    <color name="selectedunselecticontab">@color/darkblue</color>
+
+
+    <color name="detailFaqIconColor">#ec0100</color>
+
+
+    <color name="icPlayColor">#da291c</color>
+
+    <color name="spinnerItemColor">@color/white</color>
+
+    <color name="tabtextColor">@color/white</color>
+
+    <color name="tabtextunselectColor">@color/darkblue</color>
+
+    <color name="textLabelColor">@color/colorPrimary</color>
+
+    <color name="card">@color/white</color>
+    <color name="cash">@color/gray</color>
+    <color name="dispute">#F44336</color>
+    <color name="test">#2FFFFFFF</color>
+    <color name="seprator_color">#25FFFFFF</color>
+
+    <color name="lightBlue">#5971a2</color>
+    <color name="support_tab_unselected_drawable_background_color">#007FDB</color>
+    <color name="blue">#007FDB</color>
+    <color name="update_button_background">#007FDB</color>
+    <color name="darkblue">#204362</color>
+    <color name="gray">#8C8C8C</color>
+    <color name="grayOffWhite">#CCCCCC</color>
+    <color name="yellow">#ffff00</color>
+    <color name="Light_blue">#68D1FF</color>
+    <color name="darkBlue">#302F78</color>
+
+    <color name="colorTop">#330867</color>
+    <color name="colorBottom">#30CFD0</color>
+    <color name="labany">#0C81AF</color>
+    <color name="hint_color">#ABC2CF</color>
+    <color name="white_button_background">#ffffff</color>
+
+
+    <color name="charColor">@color/white</color>
+    <color name="notification">#F80000</color>
+
+    <color name="waittocomfirm">@color/colorPrimary</color>
+
+    <color name="counutrySpinnerColor">@color/white</color>
+
+
+    <color name="AlltextColor">@color/white</color>
+
+
+    <color name="dashboardtext">@color/darkBlue</color>
+    <color name="redColor">#EC0100</color>
+
+
+    <color name="support_selected_text_color">@color/blue</color>
+    <color name="fieldscolor">@color/white</color>
+    <color name="popupFieldsColor">@color/white</color>
+    <color name="fieldsNameColor">@color/white</color>
+
+    <color name="help_title_text_color">#273239</color>
+    <color name="grey_text_color">#525B60</color>
+
+    <color name="payByCardTabColor">@color/colorPrimary</color>
+
+    <color name="shareIconColor">#FF000000</color>
+
+    <color name="uploadFilesColor">#2EA0F3</color>
+
+
+    <color name="payByNfcColor">@color/white</color>
+    <color name="colorRedDetails">#ec0100</color>
+
+    <color name="colorGreen">#008000</color>
+
+
+    <color name="colorGreyEditText">#747373</color>
+
+
+</resources>

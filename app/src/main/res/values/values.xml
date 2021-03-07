@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_black">#000</color>
+    <declare-styleable name="PasscodeView">
+        <attr format="enum" name="passcodeViewType">
+            <enum name="set_passcode" value="0" />
+            <enum name="check_passcode" value="1" />
+        </attr>
+        <attr format="color" name="normalStateColor" />
+        <attr format="color" name="correctStateColor" />
+        <attr format="color" name="wrongStateColor" />
+        <attr format="color" name="numberTextColor" />
+        <attr format="integer" name="passcodeLength" />
+        <attr format="string" name="firstInputTip" />
+        <attr format="string" name="secondInputTip" />
+        <attr format="string" name="wrongLengthTip" />
+        <attr format="string" name="wrongInputTip" />
+        <attr format="string" name="correctInputTip" />
+    </declare-styleable>
+    <string name="lock_input_again">Re-enter new passcode</string>
+    <string name="lock_input_not_match">Passcodes do not match.</string>
+    <string name="please_enter_passcode">Enter a passcode of 4-6 digits</string>
+
+    <style name="NumberInPasscode">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:background">@drawable/layout_selector_tran</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <string-array name="currncytype" translatable="false">
+        <item>جنية</item>
+        <!--<item>دولار</item>-->
+        <!--<item>يورو</item>-->
+    </string-array>
+
+    <item type="id" name="help_layout" />
+    <item type="id" name="help_imageView" />
+    <item type="id" name="help_textView" />
+    <item type="id" name="remmberToggle" />
+
+    <item type="id" name="userMobile" />
+
+    <item type="id" name="layout_pay_by_card" />
+    <item type="id" name="tv_tab_card" />
+
+    <item type="id" name="email_ll" />
+    <item type="id" name="sms_ll" />
+    <item type="id" name="share_ll" />
+
+    <item type="id" name="pay_link_email_ll" />
+    <item type="id" name="pay_link_mobile_ll" />
+    <item type="id" name="pay_link_send_close_ll" />
+    <item type="id" name="cancel_pay_link_ll" />
+    <item type="id" name="receipt_operation_tv" />
+    <item type="id" name="send_pay_link_ll" />
+    <item type="id" name="messageEditText" />
+    <item type="id" name="ll_header" />
+    <item type="id" name="iv_close" />
+
+    <item type="id" name="qrLink_ll" />
+
+
+    <item type="id" name="forget_password_email_ll" />
+    <item type="id" name="forget_password_username_ll" />
+    <item type="id" name="forget_password_send_close_ll" />
+    <item type="id" name="cancel_forget_password_ll" />
+    <item type="id" name="send_forget_password_ll" />
+    <item type="id" name="forget_password_mobile_ll" />
+    <item type="id" name="mobile" />
+    <item type="id" name="email" />
+    <item type="id" name="tv_email" />
+    <item type="id" name="id_noti_item_view" />
+    <item type="id" name="ll_total_tips" />
+    <item type="id" name="btn_invoice_cash" />
+    <item type="id" name="btn_invoice_card" />
+    <item type="id" name="ll_qr_scan" />
+    <item type="id" name="iv_qr_scan" />
+    <item type="id" name="ll_share_completed" />
+    <item type="id" name="manualLL" />
+    <item type="id" name="contactLessLL" />
+    <item type="id" name="imageManual" />
+    <item type="id" name="imageContactLess" />
+    <item type="id" name="tvManual" />
+    <item type="id" name="tvContactLess" />
+    <item type="id" name="MainTab" />
+    <item type="id" name="btn_submit_amount" />
+    <item type="id" name="ll_submit_cancel" />
+    <item type="id" name="tv_account_name" />
+    <item type="id" name="ll_multiple_invoice" />
+    <item type="id" name="currency_amount" />
+    <item type="id" name="tv_no_services_title" />
+
+    <item type="id" name="iv_yalla_email" />
+    <item type="id" name="iv_yalla_phone" />
+    <item type="id" name="et_yalla_userMobile" />
+    <item type="id" name="et_yalla_userName" />
+    <item type="id" name="tv_link_completed" />
+    <item type="id" name="rv_surveyQuestions" />
+    <item type="id" name="btn_submit_survey" />
+    <item type="id" name="ll_submit_cancel_ticket" />
+    <item type="id" name="dots_indicator" />
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_successed">تم تاكيد المعاملة بنجاح</string>
+    <string name="connect_upg">الاتصال UPG  </string>
+    <string name="email_sent_successfully">تم إرسال الإيصال بنجاح</string>
+    <string name="error_server">مشكلة في الاتصال</string>
+    <string name="fontappb">font/cairobold.ttf</string>
+    <string name="fontappr">font/cairobold.ttf</string>
+    <string name="genrateing_pay_link">جارى إرسال طلب دفع</string>
+    <string name="host_not_reachable">لايمكن الاتصال بالسرفر حاول مره اخري</string>
+    <string name="listview_header_hint_normal">اسحب لتحديث البيانات</string>
+    <string name="listview_header_hint_release">يتم تحديث البيانات</string>
+    <string name="listview_header_last_time">اخر تحديث：</string>
+    <string name="listview_loading">جاري التحميل ٫٫٫٫</string>
+    <string name="loading_done">تم الاسترجاع</string>
+    <string name="no_data">لا يوجد بيانات</string>
+    <string name="no_data_matching_search">لايوجد تفاصيل، لم يتم دفع الطلب</string>
+    <string name="nomore_loading">لايوجد مزيد من البيانات الاسترجاع</string>
+    <string name="progress_capture">جاري تاكيد المعاملة</string>
+    <string name="progress_captureing">جاري اتمام المعاملة</string>
+    <string name="progress_change_password">جاري تغيير رمز التحقق</string>
+    <string name="progress_refunding">جاري استرجاع المعاملة</string>
+    <string name="refresh_done">تم الاسترجاع</string>
+    <string name="refreshing">جاري التحديث ٫٫</string>
+    <string name="refund_successed">تم ارسال طلب إسترجاع المبلغ بنجاح</string>
+    <string name="request_to_pay_success">تم ارسال الطلب بنجاح </string>
+    <string name="retrieving_notification"> إسترجاع الاشعارات </string>
+    <string name="retrieving_reports">إنشاء التقارير</string>
+    <string name="retrieving_transaction_report">استرجاع تفاصيل المعاملة </string>
+    <string name="sending_mail">جاري إرسال الايصال</string>
+    <string name="sending_support">جاري إرسال تذكرة دعم فنى</string>
+    <string name="transaction_not_Found">المعاملة غير موجودة</string>
+    <string name="upg_dashboard_transaction_count_label">"المعاملات: "</string>
+    <string name="upg_general_device_rooted_message">الجهاز فى وضع الرووت</string>
+    <string name="upg_general_password_updated_message">تم تحديث رمز التحقق بنجاح</string>
+    <string name="upg_general_retrieving_data">جاري استرجاع البيانات</string>
+</resources>

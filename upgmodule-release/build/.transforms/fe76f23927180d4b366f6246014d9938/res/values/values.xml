@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string name="capture_successed">Capture Completed Successfully</string>
+    <string name="connect_upg">Connecting to UPG</string>
+    <string name="email_sent_successfully">Receipt Sent Successfully</string>
+    <string name="error_server">Error in server , try again.</string>
+    <string name="fontappb">font/robotecbold.ttf</string>
+    <string name="fontappr">font/robotecrec.ttf</string>
+    <string name="genrateing_pay_link">Sending PayLink </string>
+    <string name="host_not_reachable">Can\'t reach server please try again</string>
+    <string name="listview_header_hint_normal">pull to refresh</string>
+    <string name="listview_header_hint_release">release to start refresh</string>
+    <string name="listview_header_last_time">last update：</string>
+    <string name="listview_loading">Loading...</string>
+    <string name="loading_done">Loading done</string>
+    <string name="no_data">No more data</string>
+    <string name="no_data_matching_search">No payment details, order not paid </string>
+    <string name="nomore_loading">No more to be loaded</string>
+    <string name="progress_capture">Capturing Transaction</string>
+    <string name="progress_captureing">Capture Transaction</string>
+    <string name="progress_change_password">Changing  PIN</string>
+    <string name="progress_refunding">Refunding Transaction</string>
+    <string name="refresh_done">Refresh done</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="refund_successed">Refund request has been successfully sent</string>
+    <string name="request_to_pay_success">Request has been sent </string>
+    <string name="retrieving_notification"> Retrieving Notification </string>
+    <string name="retrieving_reports">Retrieving Reports</string>
+    <string name="retrieving_transaction_report"> Retrieving Transaction Details </string>
+    <string name="sending_mail">Sending Receipt</string>
+    <string name="sending_support">Sending Support Ticket </string>
+    <string name="transaction_not_Found">Transaction not found</string>
+    <string name="upg_dashboard_transaction_count_label">"Transactions: "</string>
+    <string name="upg_general_device_rooted_message">Your device is rooted.</string>
+    <string name="upg_general_password_updated_message">PIN Update Successfully </string>
+    <string name="upg_general_retrieving_data">Retrieving Data</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

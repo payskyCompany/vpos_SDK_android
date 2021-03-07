@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vector_layer">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/_8sdp"
+            android:padding="@dimen/_4sdp"
+            android:tint="@color/receiptTextColor"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_close_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_25sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_25sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/upg_general_receipt"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp" />
+
+                <TextView
+                    android:id="@+id/receipt_operation_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    tools:text="Sale"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/TransaImageStatus"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:src="@drawable/complete_transaction" />
+
+                <TextView
+                    android:id="@+id/TransStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/upg_receipt_Transaction_status_label"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/AuthCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorGreyEditText"
+                android:textSize="@dimen/_16ssp"
+                android:visibility="visible"
+                tools:text="Auth no  12345688" />
+
+            <LinearLayout
+                android:id="@+id/RejectResonLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_receipt_Reject_Reason_label"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <me.grantland.widget.AutofitTextView
+                        android:id="@+id/RejectResonTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimary"
+                        tools:text="123456789" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_receipt_DateTime_label"
+                    android:textColor="@color/colorGreyEditText" />
+
+                <TextView
+                    android:id="@+id/TxnDateTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText"
+                    tools:text="27 March / 9:55 " />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_general_Operation"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/TransType"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText"
+                    tools:text="01000186400" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="Transaction Channel "
+                    android:textColor="@color/colorGreyEditText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="Wallet"
+                    android:textColor="@color/colorGreyEditText" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/CardNumberLL"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_general_cardno"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/CardNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:text="01000186400"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/MobileNumberLL"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_general_Mobileno"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <TextView
+                    android:id="@+id/MobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="01000186400"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/NameLL"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_receipt_Sender_Name_label"
+                    android:textColor="@color/colorGreyEditText" />
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="01000186400"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ReferenceLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_receipt_Reference_number_label"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <TextView
+                    android:id="@+id/ReferenceNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    tools:text="1222211"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <me.grantland.widget.AutofitTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@string/upg_receipt_transaciton_id_label"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <TextView
+                    android:id="@+id/transid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="123456789"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/tahweeltransLL"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_receipt_Tahweel_transaciton_id_label"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <TextView
+                    android:id="@+id/tahweeltransid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="123456789"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/FeeAmntLL"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_general_Fee"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <TextView
+                    android:id="@+id/FeeAmnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_weight="1"
+                    android:text="123456789"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/TipAmntLL"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_general_Tips"
+                    android:textColor="@color/colorGreyEditText" />
+
+
+                <TextView
+                    android:id="@+id/TipAmnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="123456789"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/IsRefund"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/RefundUserCreatorLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/upg_receipt_Refund_User_Creator_label"
+                        android:textColor="@color/colorGreyEditText" />
+
+
+                    <TextView
+                        android:id="@+id/RefundUserCreator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="123456789"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorGreyEditText" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/RefundSourceLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/upg_receipt_Refund_Source_label"
+                        android:textColor="@color/colorGreyEditText" />
+
+
+                    <TextView
+                        android:id="@+id/RefundSource"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="123456789"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorGreyEditText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/RefundReasonLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/upg_receipt_Refund_Reason_label"
+                        android:textColor="@color/colorGreyEditText" />
+
+
+                    <TextView
+                        android:id="@+id/RefundReason"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorGreyEditText"
+                        tools:text="123456789" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    tools:visibility="visible"
+                    android:visibility="gone"
+                    android:id="@+id/OriginalTransactionIdLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/upg_receipt_original_trx_id_label"
+                        android:textColor="@color/colorGreyEditText" />
+
+                    <TextView
+                        android:textColor="@color/colorGreyEditText"
+                        android:id="@+id/OriginalTransactionId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:textAlignment="viewStart"
+                        tools:text="123456789" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/priceLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_general_Amount"
+                    android:textColor="@color/colorGreyEditText" />
+
+                <TextView
+                    android:id="@+id/priceAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyEditText"
+                    tools:text="123456789" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/upg_reciept_Total_label"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp" />
+
+                <TextView
+                    android:id="@+id/Amnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    tools:text="EGP 27.00" />
+            </LinearLayout>
+
+            <TextView
+                tools:visibility="visible"
+                android:id="@+id/sendBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:gravity="start"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="@string/adcb_send_receipt_by"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/EmailLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/RefundBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_login_background"
+                    android:text="@string/upg_general_Refund"
+                    android:textColor="@color/white" />
+
+                <Button
+                    tools:visibility="visible"
+                    android:id="@+id/capture"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_login_background"
+                    android:text="@string/upg_general_capture"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/SENRECET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_login_background"
+                    android:text="@string/upg_receipt_Send_receipt_btn"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

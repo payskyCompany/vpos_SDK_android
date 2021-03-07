@@ -1,0 +1,1916 @@
+{
+  "project_info": {
+    "project_number": "170147486822",
+    "firebase_url": "https://steamy-7b7a0.firebaseio.com",
+    "project_id": "steamy-7b7a0",
+    "storage_bucket": "steamy-7b7a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:34a9af82d0f14f64",
+        "android_client_info": {
+          "package_name": "com.example.amrel.smartboxv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-uum1ung5ngt1b04pf5lkatnfbadu1vnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amrel.smartboxv2",
+            "certificate_hash": "eae5b254713cb5dd17d69b22e774b413e9135f4d"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:4cf811618eb4a172",
+        "android_client_info": {
+          "package_name": "com.example.paybutton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:46f920fb1d103acc",
+        "android_client_info": {
+          "package_name": "com.paysky.Inma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:5a01ef2c38fdac5e7e61a7",
+        "android_client_info": {
+          "package_name": "com.paysky.SmartBox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-6mm7060gtijh4oh5d58kthjcojm527sg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paysky.SmartBox",
+            "certificate_hash": "a4c49f6ec646d657fb4137258803a7a631b53e47"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:e7442a2169788c59",
+        "android_client_info": {
+          "package_name": "com.paysky.access"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:a51cb84ed1ada746",
+        "android_client_info": {
+          "package_name": "com.paysky.dubai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:5ef3edbca31b2450",
+        "android_client_info": {
+          "package_name": "com.paysky.etisalat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:fccb39e274ec125f",
+        "android_client_info": {
+          "package_name": "com.paysky.falcon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:5e2d8fd573c16511",
+        "android_client_info": {
+          "package_name": "com.paysky.libya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:0e3c6eb979d483cf",
+        "android_client_info": {
+          "package_name": "com.paysky.nbk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:bdc06bb9f7437545",
+        "android_client_info": {
+          "package_name": "com.paysky.paysky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-uj0gab3dh1qon68os0g4snmje481cqgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paysky.paysky",
+            "certificate_hash": "eae5b254713cb5dd17d69b22e774b413e9135f4d"
+          }
+        },
+        {
+          "client_id": "170147486822-702piq96gjbkm551prijtv1bgbucqus8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paysky.paysky",
+            "certificate_hash": "fbf7a22f71c70fa342e2564a443cd6194a6e07fc"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:8fd7cb5d7cf7d8b4",
+        "android_client_info": {
+          "package_name": "com.paysky.post"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:3f42a5302eedb64a",
+        "android_client_info": {
+          "package_name": "com.paysky.securedsmartsystems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:119696a9274364ec",
+        "android_client_info": {
+          "package_name": "com.paysky.tadamon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:bde41307f841d83d",
+        "android_client_info": {
+          "package_name": "com.paysky.talatmostafa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:077611b18e34a318",
+        "android_client_info": {
+          "package_name": "com.paysky.we"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:fe831ac9ff199fd5",
+        "android_client_info": {
+          "package_name": "com.paysky.yalla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:ba4fac24e17a13d67e61a7",
+        "android_client_info": {
+          "package_name": "com.paysky.yalla.super3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:fad206192d54f1a1",
+        "android_client_info": {
+          "package_name": "com.steamimprint.employee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:75b8d55e935d603c",
+        "android_client_info": {
+          "package_name": "com.steamimprint.steamimprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:3609fec883a006d3",
+        "android_client_info": {
+          "package_name": "com.tasawk.steamimprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-0vr467m533ies4omns1773geg6tvbecc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tasawk.steamimprint",
+            "certificate_hash": "fbf7a22f71c70fa342e2564a443cd6194a6e07fc"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:2ac6fe5ff64e688d",
+        "android_client_info": {
+          "package_name": "com.upg.tahweel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-feaj3pcrdncqlkr3d9fon9igiavf084v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.upg.tahweel",
+            "certificate_hash": "eae5b254713cb5dd17d69b22e774b413e9135f4d"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:ff68a1d634993f1f",
+        "android_client_info": {
+          "package_name": "com.wind.smartpos.ui.screens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-krknhmus5so6div66sg67qc6c2u6u0cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wind.smartpos.ui.screens",
+            "certificate_hash": "eae5b254713cb5dd17d69b22e774b413e9135f4d"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:a9aac5ae31faf1a1",
+        "android_client_info": {
+          "package_name": "io.paysky.Aonomy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:67e71b0eaff43499",
+        "android_client_info": {
+          "package_name": "io.paysky.aaib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:832e81e2715c025c7e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.adcb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:e563287af3e7131c7e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.alexbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:c7dced2b5b84efc0",
+        "android_client_info": {
+          "package_name": "io.paysky.banquemisr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:1eff3b77692da04a",
+        "android_client_info": {
+          "package_name": "io.paysky.bdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:086c197f0bb50217",
+        "android_client_info": {
+          "package_name": "io.paysky.cib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:c07ee80ede1b6c267e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.citi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:edc35021fbea345a",
+        "android_client_info": {
+          "package_name": "io.paysky.elahly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:7eea1fe0616c90b57e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.etisalat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:79c7e4f010e7a33e",
+        "android_client_info": {
+          "package_name": "io.paysky.meeza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:f276ca815a8dae0f",
+        "android_client_info": {
+          "package_name": "io.paysky.nbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:28c678ffff561637",
+        "android_client_info": {
+          "package_name": "io.paysky.nbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:f9a685ade6340f6f",
+        "android_client_info": {
+          "package_name": "io.paysky.orange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:69493ce8b7887fa5",
+        "android_client_info": {
+          "package_name": "io.paysky.qnb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:385b4e4165062f59",
+        "android_client_info": {
+          "package_name": "io.paysky.upg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:26a5c427a1964d55",
+        "android_client_info": {
+          "package_name": "io.paysky.vodafone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:0262dc25869f557f",
+        "android_client_info": {
+          "package_name": "io.paysky.vpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:89d696f5aa7c1fe47e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.vpossdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:d0bb022d1a717e357e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.vpossdkpaybycard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:8582596c0835f2697e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.yalla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:a23de05f263534507e61a7",
+        "android_client_info": {
+          "package_name": "io.paysky.yallavpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:b0b4f1939eb8b2e07e61a7",
+        "android_client_info": {
+          "package_name": "sales.app.paysky.salestrackerr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-2igql3pr1opsmgupjr8g7hlve5v1jp8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sales.app.paysky.salestrackerr",
+            "certificate_hash": "c08b8a87c76d1548b18aa8a39501a22a9a36c09f"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170147486822:android:699c00197b4b7ee1",
+        "android_client_info": {
+          "package_name": "tasawk.steamimprint.employee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170147486822-4n931kthd2hotn2svpq1idcoqdgsri6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tasawk.steamimprint.employee",
+            "certificate_hash": "fbf7a22f71c70fa342e2564a443cd6194a6e07fc"
+          }
+        },
+        {
+          "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuACCjG2fpE1u22UaRzIkwp8PS2YaO3Gg"
+        },
+        {
+          "current_key": "AIzaSyBCNXdxw3Hgb1PTbh7x_sujI5ZqA0oTTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170147486822-qlesd3rfvjqr3ka2re52iuipab5016an.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170147486822-5o7e5ts14ujghenm4mghrpsmj3bj3dp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.payskey.PayButton"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

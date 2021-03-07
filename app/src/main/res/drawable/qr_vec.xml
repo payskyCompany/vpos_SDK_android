@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="17"
+    android:viewportHeight="17"
+    android:width="17dp"
+    android:height="17dp">
+    <group
+        android:name="qr"
+        android:translateY="0.004"
+        android:translateX="-0.004">
+        <group
+            android:name="Group_1108_1_"
+            android:translateY="9473.846"
+            android:translateX="3068">
+            <path
+                android:name="Path_130_1_"
+                android:fillColor="#19183D"
+                android:pathData="M-3054.29-9473.85H-3064.7a3.3 3.3 0 0 0-3.294 3.294v10.412a3.3 3.3 0 0 0 3.294 3.294h10.412a3.3 3.3 0 0 0 3.294-3.294v-10.412A3.312 3.312 0 0 0-3054.29-9473.85Zm1.59 13.71a1.6 1.6 0 0 1-1.594 1.594h-10.412a1.6 1.6 0 0 1-1.594-1.594v-10.412a1.6 1.6 0 0 1 1.594-1.594h10.412a1.6 1.6 0 0 1 1.594 1.594Z" />
+        </group>
+        <path
+            android:name="Path_578"
+            android:fillColor="#19183D"
+            android:pathData="M2.926 2.951V7.988H7.963V2.951ZM7.244 7.268h-3.6V3.67h3.6Z" />
+        <path
+            android:name="Rectangle_707"
+            android:fillColor="#19183D"
+            android:pathData="M 0,0 L 2,0 L 2,2 L 0,2 z" />
+        <path
+            android:name="Path_579"
+            android:fillColor="#19183D"
+            android:pathData="M8.923 2.951V7.988H13.96V2.951ZM13.24 7.268h-3.6V3.67h3.6Z" />
+        <path
+            android:name="Rectangle_708"
+            android:fillColor="#19183D"
+            android:pathData="M 0,0 L 2,0 L 2,2 L 0,2 z" />
+        <path
+            android:name="Path_580"
+            android:fillColor="#19183D"
+            android:pathData="M2.926 8.947v5.037H7.963V8.947Zm4.318 4.317h-3.6v-3.6h3.6Z" />
+        <path
+            android:name="Rectangle_709"
+            android:fillColor="#19183D"
+            android:pathData="M 0,0 L 2,0 L 2,2 L 0,2 z" />
+        <path
+            android:name="Path_581"
+            android:fillColor="#19183D"
+            android:pathData="M8.923 8.947v5.037h1.439v -0.72h -0.72V11.825h 0.72v -0.719h -0.72V9.667h 0.72v -0.72Z" />
+        <path
+            android:name="Rectangle_710"
+            android:fillColor="#19183D"
+            android:pathData="M 0,0 L 1,0 L 1,1 L 0,1 z" />
+        <path
+            android:name="Path_582"
+            android:fillColor="#19183D"
+            android:pathData="M13.24 13.264h -0.72v 0.72h1.439V10.626H13.24Z" />
+        <path
+            android:name="Rectangle_711"
+            android:fillColor="#19183D"
+            android:pathData="M 0,0 L 1,0 L 1,1 L 0,1 z" />
+        <path
+            android:name="Path_583"
+            android:fillColor="#19183D"
+            android:pathData="M12.52 11.825H11.8v -0.719h 0.719v -0.72H11.081v2.159H12.52Z" />
+        <path
+            android:name="Rectangle_712"
+            android:fillColor="#19183D"
+            android:pathData="M 0,0 L 1,0 L 1,1 L 0,1 z" />
+    </group>
+</vector>
